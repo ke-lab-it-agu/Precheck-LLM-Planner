@@ -1,0 +1,10 @@
+{
+    "WALK": "Preconditions:\n<Object> is not held in your right hand or left hand.\n",
+    "GRAB": "Preconditions:\nYou are close to <Object>.\n<Object> is not held in your right hand or left hand.\n",
+    "SWITCHON": "Preconditions:\nYou are close to <Object>.\n<Object> is OFF.\n",
+    "SWITCHOFF": "Preconditions:\nYou are close to <Object>.\n<Object> is ON.\n",
+    "OPEN": "Preconditions:\nYou are close to <Object>.\n<Object> is CLOSED.\n",
+    "CLOSE": "Preconditions:\nYou are close to <Object>.\n<Object> is OPEN.\n",
+    "PUT": "Preconditions:\nYou are holding <Object1> in your right hand or left hand.\nYou are close to <Object2>.\n",
+    "PUTIN": "Preconditions:\nYou are holding <Object1> in your right hand or left hand.\nYou are close to <Object2>.\n<Object2> is not CLOSED.\n"
+}

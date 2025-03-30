@@ -1,0 +1,2398 @@
+{
+    "example_task1": {
+        "task": "Put all cupcakes on the kitchentable",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 195,
+                "to_id": 231,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 196,
+                "to_id": 231,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (195)",
+            "[GRAB] <cupcake> (195)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <cupcake> (195) <kitchentable> (231)",
+            "[WALK] <cupcake> (196)",
+            "[GRAB] <cupcake> (196)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <cupcake> (196) <kitchentable> (231)"
+        ],
+        "comment": ""
+    },
+    "example_task2": {
+        "task": "Put all bananas on the kitchentable",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 315,
+                "to_id": 231,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 316,
+                "to_id": 231,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 439,
+                "to_id": 231,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <bananas> (315)",
+            "[GRAB] <bananas> (315)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <bananas> (315) <kitchentable> (231)",
+            "[WALK] <bananas> (316)",
+            "[GRAB] <bananas> (316)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <bananas> (316) <kitchentable> (231)",
+            "[WALK] <bananas> (439)",
+            "[GRAB] <bananas> (439)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <bananas> (439) <kitchentable> (231)"
+        ],
+        "comment": ""
+    },
+    "example_task3": {
+        "task": "Put all apples on the kitchentable",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 437,
+                "to_id": 231,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 438,
+                "to_id": 231,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (437)",
+            "[GRAB] <apple> (437)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <apple> (437) <kitchentable> (231)",
+            "[WALK] <apple> (438)",
+            "[GRAB] <apple> (438)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <apple> (438) <kitchentable> (231)"
+        ],
+        "comment": ""
+    },
+    "example_task4": {
+        "task": "Put all plums on the kitchentable",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 443,
+                "to_id": 231,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 444,
+                "to_id": 231,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <plum> (443)",
+            "[GRAB] <plum> (443)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <plum> (443) <kitchentable> (231)",
+            "[WALK] <plum> (444)",
+            "[GRAB] <plum> (444)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <plum> (444) <kitchentable> (231)"
+        ],
+        "comment": ""
+    },
+    "example_task5": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 305,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 195,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 196,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (195)",
+            "[GRAB] <cupcake> (195)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <cupcake> (195) <fridge> (305)",
+            "[WALK] <cupcake> (196)",
+            "[GRAB] <cupcake> (196)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <cupcake> (196) <fridge> (305)"
+        ],
+        "comment": ""
+    },
+    "example_task6": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 305,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 195,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 196,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (195)",
+            "[GRAB] <cupcake> (195)",
+            "[WALK] <fridge> (305)",
+            "[OPEN] <fridge> (305)",
+            "[PUTIN] <cupcake> (195) <fridge> (305)",
+            "[WALK] <cupcake> (196)",
+            "[GRAB] <cupcake> (196)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <cupcake> (196) <fridge> (305)"
+        ],
+        "comment": ""
+    },
+    "example_task7": {
+        "task": "Put all bellpeppers in the microwave",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 313,
+                "states": [
+                    "OPEN",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 320,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 321,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 322,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 323,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 324,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 325,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <bellpepper> (320)",
+            "[GRAB] <bellpepper> (320)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (320) <microwave> (313)",
+            "[WALK] <bellpepper> (321)",
+            "[GRAB] <bellpepper> (321)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (321) <microwave> (313)",
+            "[WALK] <bellpepper> (322)",
+            "[GRAB] <bellpepper> (322)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (322) <microwave> (313)",
+            "[WALK] <bellpepper> (323)",
+            "[GRAB] <bellpepper> (323)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (323) <microwave> (313)",
+            "[WALK] <bellpepper> (324)",
+            "[GRAB] <bellpepper> (324)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (324) <microwave> (313)",
+            "[WALK] <bellpepper> (325)",
+            "[GRAB] <bellpepper> (325)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (325) <microwave> (313)"
+        ],
+        "comment": ""
+    },
+    "example_task8": {
+        "task": "Put all bellpeppers in the microwave",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 313,
+                "states": [
+                    "CLOSED",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 320,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 321,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 322,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 323,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 324,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 325,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <bellpepper> (320)",
+            "[GRAB] <bellpepper> (320)",
+            "[WALK] <microwave> (313)",
+            "[OPEN] <microwave> (313)",
+            "[PUTIN] <bellpepper> (320) <microwave> (313)",
+            "[WALK] <bellpepper> (321)",
+            "[GRAB] <bellpepper> (321)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (321) <microwave> (313)",
+            "[WALK] <bellpepper> (322)",
+            "[GRAB] <bellpepper> (322)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (322) <microwave> (313)",
+            "[WALK] <bellpepper> (323)",
+            "[GRAB] <bellpepper> (323)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (323) <microwave> (313)",
+            "[WALK] <bellpepper> (324)",
+            "[GRAB] <bellpepper> (324)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (324) <microwave> (313)",
+            "[WALK] <bellpepper> (325)",
+            "[GRAB] <bellpepper> (325)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bellpepper> (325) <microwave> (313)"
+        ],
+        "comment": ""
+    },
+    "example_task9": {
+        "task": "Put all chips in the fridge",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 305,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 328,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 329,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <chips> (328)",
+            "[GRAB] <chips> (328)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <chips> (328) <fridge> (305)",
+            "[WALK] <chips> (329)",
+            "[GRAB] <chips> (329)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <chips> (329) <fridge> (305)"
+        ],
+        "comment": ""
+    },
+    "example_task10": {
+        "task": "Put all chips in the fridge",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 305,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 328,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 329,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <chips> (328)",
+            "[GRAB] <chips> (328)",
+            "[WALK] <fridge> (305)",
+            "[OPEN] <fridge> (305)",
+            "[PUTIN] <chips> (328) <fridge> (305)",
+            "[WALK] <chips> (329)",
+            "[GRAB] <chips> (329)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <chips> (329) <fridge> (305)"
+        ],
+        "comment": ""
+    },
+    "example_task11": {
+        "task": "Put all apples in the fridge",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 305,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 437,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 438,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (437)",
+            "[GRAB] <apple> (437)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <apple> (437) <fridge> (305)",
+            "[WALK] <apple> (438)",
+            "[GRAB] <apple> (438)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <apple> (438) <fridge> (305)"
+        ],
+        "comment": ""
+    },
+    "example_task12": {
+        "task": "Put all apples in the fridge",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 305,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 437,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 438,
+                "to_id": 305,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (437)",
+            "[GRAB] <apple> (437)",
+            "[WALK] <fridge> (305)",
+            "[OPEN] <fridge> (305)",
+            "[PUTIN] <apple> (437) <fridge> (305)",
+            "[WALK] <apple> (438)",
+            "[GRAB] <apple> (438)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <apple> (438) <fridge> (305)"
+        ],
+        "comment": ""
+    },
+    "example_task13": {
+        "task": "Put all apples in the microwave",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 313,
+                "states": [
+                    "OPEN",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 437,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 438,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (437)",
+            "[GRAB] <apple> (437)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <apple> (437) <microwave> (313)",
+            "[WALK] <apple> (438)",
+            "[GRAB] <apple> (438)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <apple> (438) <microwave> (313)"
+        ],
+        "comment": ""
+    },
+    "example_task14": {
+        "task": "Put all apples in the microwave",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 313,
+                "states": [
+                    "CLOSED",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 437,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 438,
+                "to_id": 313,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (437)",
+            "[GRAB] <apple> (437)",
+            "[WALK] <microwave> (313)",
+            "[OPEN] <microwave> (313)",
+            "[PUTIN] <apple> (437) <microwave> (313)",
+            "[WALK] <apple> (438)",
+            "[GRAB] <apple> (438)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <apple> (438) <microwave> (313)"
+        ],
+        "comment": ""
+    },
+    "example_task15": {
+        "task": "Put all apples on the kitchentable",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 113,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 114,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 249,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 250,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 251,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 252,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 253,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 254,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 255,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 256,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 257,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 258,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 259,
+                "to_id": 199,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (113)",
+            "[GRAB] <apple> (113)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <apple> (113) <kitchentable> (199)",
+            "[WALK] <apple> (114)",
+            "[GRAB] <apple> (114)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <apple> (114) <kitchentable> (199)",
+            "[WALK] <apple> (256)",
+            "[GRAB] <apple> (256)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <apple> (256) <kitchentable> (199)",
+            "[WALK] <apple> (258)",
+            "[GRAB] <apple> (258)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <apple> (258) <kitchentable> (199)",
+            "[WALK] <apple> (259)",
+            "[GRAB] <apple> (259)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <apple> (259) <kitchentable> (199)"
+        ],
+        "comment": ""
+    },
+    "example_task16": {
+        "task": "Put all plums on the kitchentable",
+        "scene": 2,
+        "initial_room": "livingroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 119,
+                "to_id": 199,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 120,
+                "to_id": 199,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <plum> (119)",
+            "[GRAB] <plum> (119)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <plum> (119) <kitchentable> (199)",
+            "[WALK] <plum> (120)",
+            "[GRAB] <plum> (120)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <plum> (120) <kitchentable> (199)"
+        ],
+        "comment": ""
+    },
+    "example_task17": {
+        "task": "Put all apples in the fridge",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 225,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 113,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 114,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 249,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 250,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 251,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 252,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 253,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 254,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 255,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 256,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 257,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 258,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 259,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (113)",
+            "[GRAB] <apple> (113)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (113) <fridge> (225)",
+            "[WALK] <apple> (114)",
+            "[GRAB] <apple> (114)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (114) <fridge> (225)",
+            "[WALK] <apple> (249)",
+            "[GRAB] <apple> (249)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (249) <fridge> (225)",
+            "[WALK] <apple> (250)",
+            "[GRAB] <apple> (250)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (250) <fridge> (225)",
+            "[WALK] <apple> (251)",
+            "[GRAB] <apple> (251)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (251) <fridge> (225)",
+            "[WALK] <apple> (252)",
+            "[GRAB] <apple> (252)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (252) <fridge> (225)",
+            "[WALK] <apple> (253)",
+            "[GRAB] <apple> (253)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (253) <fridge> (225)",
+            "[WALK] <apple> (254)",
+            "[GRAB] <apple> (254)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (254) <fridge> (225)",
+            "[WALK] <apple> (255)",
+            "[GRAB] <apple> (255)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (255) <fridge> (225)",
+            "[WALK] <apple> (256)",
+            "[GRAB] <apple> (256)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (256) <fridge> (225)",
+            "[WALK] <apple> (257)",
+            "[GRAB] <apple> (257)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (257) <fridge> (225)",
+            "[WALK] <apple> (258)",
+            "[GRAB] <apple> (258)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (258) <fridge> (225)",
+            "[WALK] <apple> (259)",
+            "[GRAB] <apple> (259)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (259) <fridge> (225)"
+        ],
+        "comment": ""
+    },
+    "example_task18": {
+        "task": "Put all apples in the fridge",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 225,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 113,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 114,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 249,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 250,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 251,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 252,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 253,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 254,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 255,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 256,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 257,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 258,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 259,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (113)",
+            "[GRAB] <apple> (113)",
+            "[WALK] <fridge> (225)",
+            "[OPEN] <fridge> (225)",
+            "[PUTIN] <apple> (113) <fridge> (225)",
+            "[WALK] <apple> (114)",
+            "[GRAB] <apple> (114)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (114) <fridge> (225)",
+            "[WALK] <apple> (249)",
+            "[GRAB] <apple> (249)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (249) <fridge> (225)",
+            "[WALK] <apple> (250)",
+            "[GRAB] <apple> (250)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (250) <fridge> (225)",
+            "[WALK] <apple> (251)",
+            "[GRAB] <apple> (251)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (251) <fridge> (225)",
+            "[WALK] <apple> (252)",
+            "[GRAB] <apple> (252)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (252) <fridge> (225)",
+            "[WALK] <apple> (253)",
+            "[GRAB] <apple> (253)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (253) <fridge> (225)",
+            "[WALK] <apple> (254)",
+            "[GRAB] <apple> (254)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (254) <fridge> (225)",
+            "[WALK] <apple> (255)",
+            "[GRAB] <apple> (255)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (255) <fridge> (225)",
+            "[WALK] <apple> (256)",
+            "[GRAB] <apple> (256)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (256) <fridge> (225)",
+            "[WALK] <apple> (257)",
+            "[GRAB] <apple> (257)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (257) <fridge> (225)",
+            "[WALK] <apple> (258)",
+            "[GRAB] <apple> (258)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (258) <fridge> (225)",
+            "[WALK] <apple> (259)",
+            "[GRAB] <apple> (259)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <apple> (259) <fridge> (225)"
+        ],
+        "comment": ""
+    },
+    "example_task19": {
+        "task": "Put all apples in the microwave",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 234,
+                "states": [
+                    "OPEN",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 113,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 114,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 249,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 250,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 251,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 252,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 253,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 254,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 255,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 256,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 257,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 258,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 259,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (113)",
+            "[GRAB] <apple> (113)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (113) <microwave> (234)",
+            "[WALK] <apple> (114)",
+            "[GRAB] <apple> (114)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (114) <microwave> (234)",
+            "[WALK] <apple> (249)",
+            "[GRAB] <apple> (249)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (249) <microwave> (234)",
+            "[WALK] <apple> (250)",
+            "[GRAB] <apple> (250)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (250) <microwave> (234)",
+            "[WALK] <apple> (251)",
+            "[GRAB] <apple> (251)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (251) <microwave> (234)",
+            "[WALK] <apple> (252)",
+            "[GRAB] <apple> (252)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (252) <microwave> (234)",
+            "[WALK] <apple> (253)",
+            "[GRAB] <apple> (253)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (253) <microwave> (234)",
+            "[WALK] <apple> (254)",
+            "[GRAB] <apple> (254)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (254) <microwave> (234)",
+            "[WALK] <apple> (255)",
+            "[GRAB] <apple> (255)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (255) <microwave> (234)",
+            "[WALK] <apple> (256)",
+            "[GRAB] <apple> (256)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (256) <microwave> (234)",
+            "[WALK] <apple> (257)",
+            "[GRAB] <apple> (257)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (257) <microwave> (234)",
+            "[WALK] <apple> (258)",
+            "[GRAB] <apple> (258)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (258) <microwave> (234)",
+            "[WALK] <apple> (259)",
+            "[GRAB] <apple> (259)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (259) <microwave> (234)"
+        ],
+        "comment": ""
+    },
+    "example_task20": {
+        "task": "Put all apples in the microwave",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 234,
+                "states": [
+                    "CLOSED",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 113,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 114,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 249,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 250,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 251,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 252,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 253,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 254,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 255,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 256,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 257,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 258,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 259,
+                "to_id": 234,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (113)",
+            "[GRAB] <apple> (113)",
+            "[WALK] <microwave> (234)",
+            "[OPEN] <microwave> (234)",
+            "[PUTIN] <apple> (113) <microwave> (234)",
+            "[WALK] <apple> (114)",
+            "[GRAB] <apple> (114)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (114) <microwave> (234)",
+            "[WALK] <apple> (249)",
+            "[GRAB] <apple> (249)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (249) <microwave> (234)",
+            "[WALK] <apple> (250)",
+            "[GRAB] <apple> (250)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (250) <microwave> (234)",
+            "[WALK] <apple> (251)",
+            "[GRAB] <apple> (251)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (251) <microwave> (234)",
+            "[WALK] <apple> (252)",
+            "[GRAB] <apple> (252)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (252) <microwave> (234)",
+            "[WALK] <apple> (253)",
+            "[GRAB] <apple> (253)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (253) <microwave> (234)",
+            "[WALK] <apple> (254)",
+            "[GRAB] <apple> (254)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (254) <microwave> (234)",
+            "[WALK] <apple> (255)",
+            "[GRAB] <apple> (255)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (255) <microwave> (234)",
+            "[WALK] <apple> (256)",
+            "[GRAB] <apple> (256)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (256) <microwave> (234)",
+            "[WALK] <apple> (257)",
+            "[GRAB] <apple> (257)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (257) <microwave> (234)",
+            "[WALK] <apple> (258)",
+            "[GRAB] <apple> (258)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (258) <microwave> (234)",
+            "[WALK] <apple> (259)",
+            "[GRAB] <apple> (259)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <apple> (259) <microwave> (234)"
+        ],
+        "comment": ""
+    },
+    "example_task21": {
+        "task": "Put all chips in the fridge",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 225,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 246,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <chips> (245)",
+            "[GRAB] <chips> (245)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <chips> (245) <fridge> (225)",
+            "[WALK] <chips> (246)",
+            "[GRAB] <chips> (246)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <chips> (246) <fridge> (225)"
+        ],
+        "comment": ""
+    },
+    "example_task22": {
+        "task": "Put all chips in the fridge",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 225,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 246,
+                "to_id": 225,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <chips> (245)",
+            "[GRAB] <chips> (245)",
+            "[WALK] <fridge> (225)",
+            "[OPEN] <fridge> (225)",
+            "[PUTIN] <chips> (245) <fridge> (225)",
+            "[WALK] <chips> (246)",
+            "[GRAB] <chips> (246)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <chips> (246) <fridge> (225)"
+        ],
+        "comment": ""
+    },
+    "example_task23": {
+        "task": "Put all juices on the coffeetable",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 173,
+                "to_id": 215,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 174,
+                "to_id": 215,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <juice> (173)",
+            "[GRAB] <juice> (173)",
+            "[WALK] <coffeetable> (215)",
+            "[PUT] <juice> (173) <coffeetable> (215)",
+            "[WALK] <juice> (174)",
+            "[GRAB] <juice> (174)",
+            "[WALK] <coffeetable> (215)",
+            "[PUT] <juice> (174) <coffeetable> (215)"
+        ],
+        "comment": ""
+    },
+    "example_task24": {
+        "task": "Put all juices in the microwave",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 171,
+                "states": [
+                    "OPEN",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 173,
+                "to_id": 171,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 174,
+                "to_id": 171,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <juice> (173)",
+            "[GRAB] <juice> (173)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <juice> (173) <microwave> (171)",
+            "[WALK] <juice> (174)",
+            "[GRAB] <juice> (174)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <juice> (174) <microwave> (171)"
+        ],
+        "comment": ""
+    },
+    "example_task25": {
+        "task": "Put all juices in the microwave",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 171,
+                "states": [
+                    "CLOSED",
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 173,
+                "to_id": 171,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 174,
+                "to_id": 171,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <juice> (173)",
+            "[GRAB] <juice> (173)",
+            "[WALK] <microwave> (171)",
+            "[OPEN] <microwave> (171)",
+            "[PUTIN] <juice> (173) <microwave> (171)",
+            "[WALK] <juice> (174)",
+            "[GRAB] <juice> (174)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <juice> (174) <microwave> (171)"
+        ],
+        "comment": ""
+    },
+    "example_task26": {
+        "task": "Put all milks in the fridge",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 162,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 176,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 177,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <milk> (176)",
+            "[GRAB] <milk> (176)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <milk> (176) <fridge> (162)",
+            "[WALK] <milk> (177)",
+            "[GRAB] <milk> (177)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <milk> (177) <fridge> (162)"
+        ],
+        "comment": ""
+    },
+    "example_task27": {
+        "task": "Put all milks in the fridge",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 162,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 176,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 177,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <milk> (176)",
+            "[GRAB] <milk> (176)",
+            "[WALK] <fridge> (162)",
+            "[OPEN] <fridge> (162)",
+            "[PUTIN] <milk> (176) <fridge> (162)",
+            "[WALK] <milk> (177)",
+            "[GRAB] <milk> (177)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <milk> (177) <fridge> (162)"
+        ],
+        "comment": ""
+    },
+    "example_task28": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 162,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 225,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 226,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 227,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 385,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (225)",
+            "[GRAB] <cupcake> (225)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <cupcake> (225) <fridge> (162)",
+            "[WALK] <cupcake> (226)",
+            "[GRAB] <cupcake> (226)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <cupcake> (226) <fridge> (162)",
+            "[WALK] <cupcake> (227)",
+            "[GRAB] <cupcake> (227)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <cupcake> (227) <fridge> (162)",
+            "[WALK] <cupcake> (385)",
+            "[GRAB] <cupcake> (385)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <cupcake> (385) <fridge> (162)"
+        ],
+        "comment": ""
+    },
+    "example_task29": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 162,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 225,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 226,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 227,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 385,
+                "to_id": 162,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (225)",
+            "[GRAB] <cupcake> (225)",
+            "[WALK] <fridge> (162)",
+            "[OPEN] <fridge> (162)",
+            "[PUTIN] <cupcake> (225) <fridge> (162)",
+            "[WALK] <cupcake> (226)",
+            "[GRAB] <cupcake> (226)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <cupcake> (226) <fridge> (162)",
+            "[WALK] <cupcake> (227)",
+            "[GRAB] <cupcake> (227)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <cupcake> (227) <fridge> (162)",
+            "[WALK] <cupcake> (385)",
+            "[GRAB] <cupcake> (385)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <cupcake> (385) <fridge> (162)"
+        ],
+        "comment": ""
+    },
+    "example_task30": {
+        "task": "Put all peaches on the oventray",
+        "scene": 4,
+        "initial_room": "kitchen",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 51,
+                "to_id": 106,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 52,
+                "to_id": 106,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 65,
+                "to_id": 106,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <peach> (51)",
+            "[GRAB] <peach> (51)",
+            "[WALK] <oventray> (106)",
+            "[PUT] <peach> (51) <oventray> (106)",
+            "[WALK] <peach> (52)",
+            "[GRAB] <peach> (52)",
+            "[WALK] <oventray> (106)",
+            "[PUT] <peach> (52) <oventray> (106)",
+            "[WALK] <peach> (65)",
+            "[GRAB] <peach> (65)",
+            "[WALK] <oventray> (106)",
+            "[PUT] <peach> (65) <oventray> (106)"
+        ],
+        "comment": ""
+    },
+    "example_task31": {
+        "task": "Put all peaches on the coffeetable",
+        "scene": 4,
+        "initial_room": "bathroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 51,
+                "to_id": 269,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 52,
+                "to_id": 269,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 65,
+                "to_id": 269,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <peach> (51)",
+            "[GRAB] <peach> (51)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <peach> (51) <coffeetable> (269)",
+            "[WALK] <peach> (52)",
+            "[GRAB] <peach> (52)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <peach> (52) <coffeetable> (269)",
+            "[WALK] <peach> (65)",
+            "[GRAB] <peach> (65)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <peach> (65) <coffeetable> (269)"
+        ],
+        "comment": ""
+    },
+    "example_task32": {
+        "task": "Put all plums on the kitchentable",
+        "scene": 4,
+        "initial_room": "bathroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 53,
+                "to_id": 72,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 54,
+                "to_id": 72,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <plum> (53)",
+            "[GRAB] <plum> (53)",
+            "[WALK] <kitchentable> (72)",
+            "[PUT] <plum> (53) <kitchentable> (72)",
+            "[WALK] <plum> (54)",
+            "[GRAB] <plum> (54)",
+            "[WALK] <kitchentable> (72)",
+            "[PUT] <plum> (54) <kitchentable> (72)"
+        ],
+        "comment": ""
+    },
+    "example_task33": {
+        "task": "Put all plums on the oventray",
+        "scene": 4,
+        "initial_room": "bathroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 53,
+                "to_id": 106,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 54,
+                "to_id": 106,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <plum> (53)",
+            "[GRAB] <plum> (53)",
+            "[WALK] <oventray> (106)",
+            "[PUT] <plum> (53) <oventray> (106)",
+            "[WALK] <plum> (54)",
+            "[GRAB] <plum> (54)",
+            "[WALK] <oventray> (106)",
+            "[PUT] <plum> (54) <oventray> (106)"
+        ],
+        "comment": ""
+    },
+    "example_task34": {
+        "task": "Put all plums on the coffeetable",
+        "scene": 4,
+        "initial_room": "kitchen",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 53,
+                "to_id": 269,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 54,
+                "to_id": 269,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <plum> (53)",
+            "[GRAB] <plum> (53)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <plum> (53) <coffeetable> (269)",
+            "[WALK] <plum> (54)",
+            "[GRAB] <plum> (54)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <plum> (54) <coffeetable> (269)"
+        ],
+        "comment": ""
+    },
+    "example_task35": {
+        "task": "Put all chips on the coffeetable",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 61,
+                "to_id": 269,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 67,
+                "to_id": 269,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <chips> (61)",
+            "[GRAB] <chips> (61)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <chips> (61) <coffeetable> (269)",
+            "[WALK] <chips> (67)",
+            "[GRAB] <chips> (67)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <chips> (67) <coffeetable> (269)"
+        ],
+        "comment": ""
+    },
+    "example_task36": {
+        "task": "Put all crackers on the coffeetable",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 63,
+                "to_id": 269,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 66,
+                "to_id": 269,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <crackers> (63)",
+            "[GRAB] <crackers> (63)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <crackers> (63) <coffeetable> (269)",
+            "[WALK] <crackers> (66)",
+            "[GRAB] <crackers> (66)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <crackers> (66) <coffeetable> (269)"
+        ],
+        "comment": ""
+    },
+    "example_task37": {
+        "task": "Put all cupcakes on the kitchentable",
+        "scene": 4,
+        "initial_room": "kitchen",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 72,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 324,
+                "to_id": 72,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (245)",
+            "[GRAB] <cupcake> (245)",
+            "[WALK] <kitchentable> (72)",
+            "[PUT] <cupcake> (245) <kitchentable> (72)",
+            "[WALK] <cupcake> (324)",
+            "[GRAB] <cupcake> (324)",
+            "[WALK] <kitchentable> (72)",
+            "[PUT] <cupcake> (324) <kitchentable> (72)"
+        ],
+        "comment": ""
+    },
+    "example_task38": {
+        "task": "Put all chips in the fridge",
+        "scene": 4,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 103,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 61,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 67,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <chips> (61)",
+            "[GRAB] <chips> (61)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <chips> (61) <fridge> (103)",
+            "[WALK] <chips> (67)",
+            "[GRAB] <chips> (67)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <chips> (67) <fridge> (103)"
+        ],
+        "comment": ""
+    },
+    "example_task39": {
+        "task": "Put all chips in the fridge",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 103,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 61,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 67,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <chips> (61)",
+            "[GRAB] <chips> (61)",
+            "[WALK] <fridge> (103)",
+            "[OPEN] <fridge> (103)",
+            "[PUTIN] <chips> (61) <fridge> (103)",
+            "[WALK] <chips> (67)",
+            "[GRAB] <chips> (67)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <chips> (67) <fridge> (103)"
+        ],
+        "comment": ""
+    },
+    "example_task40": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 4,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 103,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 324,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (245)",
+            "[GRAB] <cupcake> (245)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <cupcake> (245) <fridge> (103)",
+            "[WALK] <cupcake> (324)",
+            "[GRAB] <cupcake> (324)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <cupcake> (324) <fridge> (103)"
+        ],
+        "comment": ""
+    },
+    "example_task41": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 4,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 103,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 324,
+                "to_id": 103,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (245)",
+            "[GRAB] <cupcake> (245)",
+            "[WALK] <fridge> (103)",
+            "[OPEN] <fridge> (103)",
+            "[PUTIN] <cupcake> (245) <fridge> (103)",
+            "[WALK] <cupcake> (324)",
+            "[GRAB] <cupcake> (324)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <cupcake> (324) <fridge> (103)"
+        ],
+        "comment": ""
+    },
+    "example_task42": {
+        "task": "Put all cupcakes on the kitchentable",
+        "scene": 5,
+        "initial_room": "livingroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 97,
+                "to_id": 138,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 210,
+                "to_id": 138,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 211,
+                "to_id": 138,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (97)",
+            "[GRAB] <cupcake> (97)",
+            "[WALK] <kitchentable> (138)",
+            "[PUT] <cupcake> (97) <kitchentable> (138)"
+        ],
+        "comment": ""
+    },
+    "example_task43": {
+        "task": "Put all bananas on the kitchentable",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 203,
+                "to_id": 138,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 204,
+                "to_id": 138,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <bananas> (203)",
+            "[GRAB] <bananas> (203)",
+            "[WALK] <kitchentable> (138)",
+            "[PUT] <bananas> (203) <kitchentable> (138)",
+            "[WALK] <bananas> (204)",
+            "[GRAB] <bananas> (204)",
+            "[WALK] <kitchentable> (138)",
+            "[PUT] <bananas> (204) <kitchentable> (138)"
+        ],
+        "comment": ""
+    },
+    "example_task44": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 5,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 157,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 97,
+                "to_id": 157,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 210,
+                "to_id": 157,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 211,
+                "to_id": 157,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (97)",
+            "[GRAB] <cupcake> (97)",
+            "[WALK] <fridge> (157)",
+            "[PUTIN] <cupcake> (97) <fridge> (157)",
+            "[WALK] <cupcake> (210)",
+            "[GRAB] <cupcake> (210)",
+            "[WALK] <fridge> (157)",
+            "[PUTIN] <cupcake> (210) <fridge> (157)",
+            "[WALK] <cupcake> (211)",
+            "[GRAB] <cupcake> (211)",
+            "[WALK] <fridge> (157)",
+            "[PUTIN] <cupcake> (211) <fridge> (157)"
+        ],
+        "comment": ""
+    },
+    "example_task45": {
+        "task": "Put all cupcakes in the fridge",
+        "scene": 5,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 157,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 97,
+                "to_id": 157,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 210,
+                "to_id": 157,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 211,
+                "to_id": 157,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (97)",
+            "[GRAB] <cupcake> (97)",
+            "[WALK] <fridge> (157)",
+            "[OPEN] <fridge> (157)",
+            "[PUTIN] <cupcake> (97) <fridge> (157)",
+            "[WALK] <cupcake> (210)",
+            "[GRAB] <cupcake> (210)",
+            "[WALK] <fridge> (157)",
+            "[PUTIN] <cupcake> (210) <fridge> (157)",
+            "[WALK] <cupcake> (211)",
+            "[GRAB] <cupcake> (211)",
+            "[WALK] <fridge> (157)",
+            "[PUTIN] <cupcake> (211) <fridge> (157)"
+        ],
+        "comment": ""
+    },
+    "example_task46": {
+        "task": "Put all milks on the kitchentable",
+        "scene": 6,
+        "initial_room": "bathroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 186,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 246,
+                "to_id": 186,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <milk> (245)",
+            "[GRAB] <milk> (245)",
+            "[WALK] <kitchentable> (186)",
+            "[PUT] <milk> (245) <kitchentable> (186)",
+            "[WALK] <milk> (246)",
+            "[GRAB] <milk> (246)",
+            "[WALK] <kitchentable> (186)",
+            "[PUT] <milk> (246) <kitchentable> (186)"
+        ],
+        "comment": ""
+    },
+    "example_task47": {
+        "task": "Put all milks in the fridge",
+        "scene": 6,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 235,
+                "states": [
+                    "OPEN"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 235,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 246,
+                "to_id": 235,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <milk> (245)",
+            "[GRAB] <milk> (245)",
+            "[WALK] <fridge> (235)",
+            "[PUTIN] <milk> (245) <fridge> (235)",
+            "[WALK] <milk> (246)",
+            "[GRAB] <milk> (246)",
+            "[WALK] <fridge> (235)",
+            "[PUTIN] <milk> (246) <fridge> (235)"
+        ],
+        "comment": ""
+    },
+    "example_task48": {
+        "task": "Put all milks in the fridge",
+        "scene": 6,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 235,
+                "states": [
+                    "CLOSED"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "from_id": 245,
+                "to_id": 235,
+                "relation_type": "INSIDE"
+            },
+            {
+                "from_id": 246,
+                "to_id": 235,
+                "relation_type": "INSIDE"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <milk> (245)",
+            "[GRAB] <milk> (245)",
+            "[WALK] <fridge> (235)",
+            "[OPEN] <fridge> (235)",
+            "[PUTIN] <milk> (245) <fridge> (235)",
+            "[WALK] <milk> (246)",
+            "[GRAB] <milk> (246)",
+            "[WALK] <fridge> (235)",
+            "[PUTIN] <milk> (246) <fridge> (235)"
+        ],
+        "comment": ""
+    },
+    "example_task49": {
+        "task": "Put all apples on the kitchentable",
+        "scene": 7,
+        "initial_room": "livingroom",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 176,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 177,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 178,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 179,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 180,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 181,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 182,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 183,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 184,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 185,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 186,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 249,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 250,
+                "to_id": 129,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <apple> (183)",
+            "[GRAB] <apple> (183)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <apple> (183) <kitchentable> (129)",
+            "[WALK] <apple> (185)",
+            "[GRAB] <apple> (185)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <apple> (185) <kitchentable> (129)",
+            "[WALK] <apple> (186)",
+            "[GRAB] <apple> (186)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <apple> (186) <kitchentable> (129)",
+            "[WALK] <apple> (249)",
+            "[GRAB] <apple> (249)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <apple> (249) <kitchentable> (129)",
+            "[WALK] <apple> (250)",
+            "[GRAB] <apple> (250)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <apple> (250) <kitchentable> (129)"
+        ],
+        "comment": ""
+    },
+    "example_task50": {
+        "task": "Put all plums on the kitchentable",
+        "scene": 7,
+        "initial_room": "kitchen",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 255,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 256,
+                "to_id": 129,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <plum> (255)",
+            "[GRAB] <plum> (255)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <plum> (255) <kitchentable> (129)",
+            "[WALK] <plum> (256)",
+            "[GRAB] <plum> (256)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <plum> (256) <kitchentable> (129)"
+        ],
+        "comment": ""
+    },
+    "example_task51": {
+        "task": "Put all cupcakes on the kitchentable",
+        "scene": 7,
+        "initial_room": "kitchen",
+        "initial_states": [],
+        "goal_states": [
+            {
+                "from_id": 319,
+                "to_id": 129,
+                "relation_type": "ON"
+            },
+            {
+                "from_id": 320,
+                "to_id": 129,
+                "relation_type": "ON"
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cupcake> (319)",
+            "[GRAB] <cupcake> (319)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <cupcake> (319) <kitchentable> (129)",
+            "[WALK] <cupcake> (320)",
+            "[GRAB] <cupcake> (320)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <cupcake> (320) <kitchentable> (129)"
+        ],
+        "comment": ""
+    }
+}

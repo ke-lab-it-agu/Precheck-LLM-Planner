@@ -1,0 +1,6474 @@
+{
+    "example_task1": {
+        "task": "Turn on all faucets",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already ON."
+    },
+    "example_task2": {
+        "task": "Turn on all faucets",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (248)",
+            "[SWITCHON] <faucet> (248)"
+        ],
+        "comment": ""
+    },
+    "example_task3": {
+        "task": "Turn on all faucets",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (50)",
+            "[SWITCHON] <faucet> (50)"
+        ],
+        "comment": ""
+    },
+    "example_task4": {
+        "task": "Turn on all faucets",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (50)",
+            "[SWITCHON] <faucet> (50)",
+            "[WALK] <faucet> (248)",
+            "[SWITCHON] <faucet> (248)"
+        ],
+        "comment": ""
+    },
+    "example_task5": {
+        "task": "Turn on all tablelamps",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 102,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 102,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All tablelamps are already ON."
+    },
+    "example_task6": {
+        "task": "Turn on all tablelamps",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 102,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 102,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (103)",
+            "[SWITCHON] <tablelamp> (103)"
+        ],
+        "comment": ""
+    },
+    "example_task7": {
+        "task": "Turn on all tablelamps",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 102,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 102,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (102)",
+            "[SWITCHON] <tablelamp> (102)"
+        ],
+        "comment": ""
+    },
+    "example_task8": {
+        "task": "Turn on all tablelamps",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 102,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 102,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 103,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (102)",
+            "[SWITCHON] <tablelamp> (102)",
+            "[WALK] <tablelamp> (103)",
+            "[SWITCHON] <tablelamp> (103)"
+        ],
+        "comment": ""
+    },
+    "example_task9": {
+        "task": "Turn on all computers",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 174,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 174,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All computers are already ON."
+    },
+    "example_task10": {
+        "task": "Turn on all computers",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 174,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 174,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (433)",
+            "[SWITCHON] <computer> (433)"
+        ],
+        "comment": ""
+    },
+    "example_task11": {
+        "task": "Turn on all computers",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 174,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 174,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (174)",
+            "[SWITCHON] <computer> (174)"
+        ],
+        "comment": ""
+    },
+    "example_task12": {
+        "task": "Turn on all computers",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 174,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 174,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 433,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (174)",
+            "[SWITCHON] <computer> (174)",
+            "[WALK] <computer> (433)",
+            "[SWITCHON] <computer> (433)"
+        ],
+        "comment": ""
+    },
+    "example_task13": {
+        "task": "Turn off all faucets",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (50)",
+            "[SWITCHOFF] <faucet> (50)",
+            "[WALK] <faucet> (248)",
+            "[SWITCHOFF] <faucet> (248)"
+        ],
+        "comment": ""
+    },
+    "example_task14": {
+        "task": "Turn off all faucets",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (50)",
+            "[SWITCHOFF] <faucet> (50)"
+        ],
+        "comment": ""
+    },
+    "example_task15": {
+        "task": "Turn off all faucets",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (248)",
+            "[SWITCHOFF] <faucet> (248)"
+        ],
+        "comment": ""
+    },
+    "example_task16": {
+        "task": "Turn off all faucets",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 50,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 248,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already OFF."
+    },
+    "example_task17": {
+        "task": "Turn off all candles",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 69,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 69,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (69)",
+            "[SWITCHOFF] <candle> (69)",
+            "[WALK] <candle> (181)",
+            "[SWITCHOFF] <candle> (181)"
+        ],
+        "comment": ""
+    },
+    "example_task18": {
+        "task": "Turn off all candles",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 69,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 69,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (69)",
+            "[SWITCHOFF] <candle> (69)"
+        ],
+        "comment": ""
+    },
+    "example_task19": {
+        "task": "Turn off all candles",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 69,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 69,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (181)",
+            "[SWITCHOFF] <candle> (181)"
+        ],
+        "comment": ""
+    },
+    "example_task20": {
+        "task": "Turn off all candles",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 69,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 69,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 181,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All candles are already OFF."
+    },
+    "example_task21": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)",
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)",
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)",
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task22": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)",
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)",
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)"
+        ],
+        "comment": ""
+    },
+    "example_task23": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)",
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)",
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task24": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)",
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)"
+        ],
+        "comment": ""
+    },
+    "example_task25": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)",
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)",
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task26": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)",
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)"
+        ],
+        "comment": ""
+    },
+    "example_task27": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)",
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task28": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (188)",
+            "[SWITCHOFF] <cellphone> (188)"
+        ],
+        "comment": ""
+    },
+    "example_task29": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)",
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)",
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task30": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)",
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)"
+        ],
+        "comment": ""
+    },
+    "example_task31": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)",
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task32": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (202)",
+            "[SWITCHOFF] <cellphone> (202)"
+        ],
+        "comment": ""
+    },
+    "example_task33": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)",
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task34": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (448)",
+            "[SWITCHOFF] <cellphone> (448)"
+        ],
+        "comment": ""
+    },
+    "example_task35": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (449)",
+            "[SWITCHOFF] <cellphone> (449)"
+        ],
+        "comment": ""
+    },
+    "example_task36": {
+        "task": "Turn off all cellphones",
+        "scene": 1,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 188,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 202,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 448,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 449,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All cellphones are already OFF."
+    },
+    "example_task37": {
+        "task": "Turn on all faucets",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already ON."
+    },
+    "example_task38": {
+        "task": "Turn on all faucets",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (220)",
+            "[SWITCHON] <faucet> (220)"
+        ],
+        "comment": ""
+    },
+    "example_task39": {
+        "task": "Turn on all faucets",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (29)",
+            "[SWITCHON] <faucet> (29)"
+        ],
+        "comment": ""
+    },
+    "example_task40": {
+        "task": "Turn on all faucets",
+        "scene": 2,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (29)",
+            "[SWITCHON] <faucet> (29)",
+            "[WALK] <faucet> (220)",
+            "[SWITCHON] <faucet> (220)"
+        ],
+        "comment": ""
+    },
+    "example_task41": {
+        "task": "Turn on all computers",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 94,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 94,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All computers are already ON."
+    },
+    "example_task42": {
+        "task": "Turn on all computers",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 94,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 94,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (295)",
+            "[SWITCHON] <computer> (295)"
+        ],
+        "comment": ""
+    },
+    "example_task43": {
+        "task": "Turn on all computers",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 94,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 94,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (94)",
+            "[SWITCHON] <computer> (94)"
+        ],
+        "comment": ""
+    },
+    "example_task44": {
+        "task": "Turn on all computers",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 94,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 94,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 295,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (94)",
+            "[SWITCHON] <computer> (94)",
+            "[WALK] <computer> (295)",
+            "[SWITCHON] <computer> (295)"
+        ],
+        "comment": ""
+    },
+    "example_task45": {
+        "task": "Turn on all tablelamps",
+        "scene": 2,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All tablelamps are already ON."
+    },
+    "example_task46": {
+        "task": "Turn on all tablelamps",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (125)",
+            "[SWITCHON] <tablelamp> (125)"
+        ],
+        "comment": ""
+    },
+    "example_task47": {
+        "task": "Turn on all tablelamps",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (124)",
+            "[SWITCHON] <tablelamp> (124)"
+        ],
+        "comment": ""
+    },
+    "example_task48": {
+        "task": "Turn on all tablelamps",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 125,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (124)",
+            "[SWITCHON] <tablelamp> (124)",
+            "[WALK] <tablelamp> (125)",
+            "[SWITCHON] <tablelamp> (125)"
+        ],
+        "comment": ""
+    },
+    "example_task49": {
+        "task": "Turn off all faucets",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (29)",
+            "[SWITCHOFF] <faucet> (29)",
+            "[WALK] <faucet> (220)",
+            "[SWITCHOFF] <faucet> (220)"
+        ],
+        "comment": ""
+    },
+    "example_task50": {
+        "task": "Turn off all faucets",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (29)",
+            "[SWITCHOFF] <faucet> (29)"
+        ],
+        "comment": ""
+    },
+    "example_task51": {
+        "task": "Turn off all faucets",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (220)",
+            "[SWITCHOFF] <faucet> (220)"
+        ],
+        "comment": ""
+    },
+    "example_task52": {
+        "task": "Turn off all faucets",
+        "scene": 2,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 29,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 220,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already OFF."
+    },
+    "example_task53": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (111)",
+            "[SWITCHOFF] <cellphone> (111)",
+            "[WALK] <cellphone> (185)",
+            "[SWITCHOFF] <cellphone> (185)",
+            "[WALK] <cellphone> (318)",
+            "[SWITCHOFF] <cellphone> (318)"
+        ],
+        "comment": ""
+    },
+    "example_task54": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (111)",
+            "[SWITCHOFF] <cellphone> (111)",
+            "[WALK] <cellphone> (185)",
+            "[SWITCHOFF] <cellphone> (185)"
+        ],
+        "comment": ""
+    },
+    "example_task55": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (111)",
+            "[SWITCHOFF] <cellphone> (111)",
+            "[WALK] <cellphone> (318)",
+            "[SWITCHOFF] <cellphone> (318)"
+        ],
+        "comment": ""
+    },
+    "example_task56": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (111)",
+            "[SWITCHOFF] <cellphone> (111)"
+        ],
+        "comment": ""
+    },
+    "example_task57": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (185)",
+            "[SWITCHOFF] <cellphone> (185)",
+            "[WALK] <cellphone> (318)",
+            "[SWITCHOFF] <cellphone> (318)"
+        ],
+        "comment": ""
+    },
+    "example_task58": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (185)",
+            "[SWITCHOFF] <cellphone> (185)"
+        ],
+        "comment": ""
+    },
+    "example_task59": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (318)",
+            "[SWITCHOFF] <cellphone> (318)"
+        ],
+        "comment": ""
+    },
+    "example_task60": {
+        "task": "Turn off all cellphones",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 111,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 185,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 318,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All cellphones are already OFF."
+    },
+    "example_task61": {
+        "task": "Turn off all candles",
+        "scene": 2,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 194,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 194,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (194)",
+            "[SWITCHOFF] <candle> (194)",
+            "[WALK] <candle> (197)",
+            "[SWITCHOFF] <candle> (197)"
+        ],
+        "comment": ""
+    },
+    "example_task62": {
+        "task": "Turn off all candles",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 194,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 194,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (194)",
+            "[SWITCHOFF] <candle> (194)"
+        ],
+        "comment": ""
+    },
+    "example_task63": {
+        "task": "Turn off all candles",
+        "scene": 2,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 194,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 194,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (197)",
+            "[SWITCHOFF] <candle> (197)"
+        ],
+        "comment": ""
+    },
+    "example_task64": {
+        "task": "Turn off all candles",
+        "scene": 2,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 194,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 194,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 197,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All candles are already OFF."
+    },
+    "example_task65": {
+        "task": "Turn on all faucets",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already ON."
+    },
+    "example_task66": {
+        "task": "Turn on all faucets",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (327)",
+            "[SWITCHON] <faucet> (327)"
+        ],
+        "comment": ""
+    },
+    "example_task67": {
+        "task": "Turn on all faucets",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (156)",
+            "[SWITCHON] <faucet> (156)"
+        ],
+        "comment": ""
+    },
+    "example_task68": {
+        "task": "Turn on all faucets",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (156)",
+            "[SWITCHON] <faucet> (156)",
+            "[WALK] <faucet> (327)",
+            "[SWITCHON] <faucet> (327)"
+        ],
+        "comment": ""
+    },
+    "example_task69": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All tablelamps are already ON."
+    },
+    "example_task70": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (377)",
+            "[SWITCHON] <tablelamp> (377)"
+        ],
+        "comment": ""
+    },
+    "example_task71": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (376)",
+            "[SWITCHON] <tablelamp> (376)"
+        ],
+        "comment": ""
+    },
+    "example_task72": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (376)",
+            "[SWITCHON] <tablelamp> (376)",
+            "[WALK] <tablelamp> (377)",
+            "[SWITCHON] <tablelamp> (377)"
+        ],
+        "comment": ""
+    },
+    "example_task73": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (256)",
+            "[SWITCHON] <tablelamp> (256)"
+        ],
+        "comment": ""
+    },
+    "example_task74": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (256)",
+            "[SWITCHON] <tablelamp> (256)",
+            "[WALK] <tablelamp> (377)",
+            "[SWITCHON] <tablelamp> (377)"
+        ],
+        "comment": ""
+    },
+    "example_task75": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (256)",
+            "[SWITCHON] <tablelamp> (256)",
+            "[WALK] <tablelamp> (376)",
+            "[SWITCHON] <tablelamp> (376)"
+        ],
+        "comment": ""
+    },
+    "example_task76": {
+        "task": "Turn on all tablelamps",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 256,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 256,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 376,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 377,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (256)",
+            "[SWITCHON] <tablelamp> (256)",
+            "[WALK] <tablelamp> (376)",
+            "[SWITCHON] <tablelamp> (376)",
+            "[WALK] <tablelamp> (377)",
+            "[SWITCHON] <tablelamp> (377)"
+        ],
+        "comment": ""
+    },
+    "example_task77": {
+        "task": "Turn off all cellphones",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 120,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 120,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (120)",
+            "[SWITCHOFF] <cellphone> (120)",
+            "[WALK] <cellphone> (274)",
+            "[SWITCHOFF] <cellphone> (274)"
+        ],
+        "comment": ""
+    },
+    "example_task78": {
+        "task": "Turn off all cellphones",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 120,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 120,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (120)",
+            "[SWITCHOFF] <cellphone> (120)"
+        ],
+        "comment": ""
+    },
+    "example_task79": {
+        "task": "Turn off all cellphones",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 120,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 120,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (274)",
+            "[SWITCHOFF] <cellphone> (274)"
+        ],
+        "comment": ""
+    },
+    "example_task80": {
+        "task": "Turn off all cellphones",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 120,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 120,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All cellphones are already OFF."
+    },
+    "example_task81": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (124)",
+            "[SWITCHOFF] <candle> (124)",
+            "[WALK] <candle> (216)",
+            "[SWITCHOFF] <candle> (216)",
+            "[WALK] <candle> (314)",
+            "[SWITCHOFF] <candle> (314)"
+        ],
+        "comment": ""
+    },
+    "example_task82": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (124)",
+            "[SWITCHOFF] <candle> (124)",
+            "[WALK] <candle> (216)",
+            "[SWITCHOFF] <candle> (216)"
+        ],
+        "comment": ""
+    },
+    "example_task83": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (124)",
+            "[SWITCHOFF] <candle> (124)",
+            "[WALK] <candle> (314)",
+            "[SWITCHOFF] <candle> (314)"
+        ],
+        "comment": ""
+    },
+    "example_task84": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (124)",
+            "[SWITCHOFF] <candle> (124)"
+        ],
+        "comment": ""
+    },
+    "example_task85": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (216)",
+            "[SWITCHOFF] <candle> (216)",
+            "[WALK] <candle> (314)",
+            "[SWITCHOFF] <candle> (314)"
+        ],
+        "comment": ""
+    },
+    "example_task86": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (216)",
+            "[SWITCHOFF] <candle> (216)"
+        ],
+        "comment": ""
+    },
+    "example_task87": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (314)",
+            "[SWITCHOFF] <candle> (314)"
+        ],
+        "comment": ""
+    },
+    "example_task88": {
+        "task": "Turn off all candles",
+        "scene": 3,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 216,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 314,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All candles are already OFF."
+    },
+    "example_task89": {
+        "task": "Turn off all faucets",
+        "scene": 3,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (156)",
+            "[SWITCHOFF] <faucet> (156)",
+            "[WALK] <faucet> (327)",
+            "[SWITCHOFF] <faucet> (327)"
+        ],
+        "comment": ""
+    },
+    "example_task90": {
+        "task": "Turn off all faucets",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (156)",
+            "[SWITCHOFF] <faucet> (156)"
+        ],
+        "comment": ""
+    },
+    "example_task91": {
+        "task": "Turn off all faucets",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (327)",
+            "[SWITCHOFF] <faucet> (327)"
+        ],
+        "comment": ""
+    },
+    "example_task92": {
+        "task": "Turn off all faucets",
+        "scene": 3,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 156,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 327,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already OFF."
+    },
+    "example_task93": {
+        "task": "Turn on all faucets",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already ON."
+    },
+    "example_task94": {
+        "task": "Turn on all faucets",
+        "scene": 4,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (195)",
+            "[SWITCHON] <faucet> (195)"
+        ],
+        "comment": ""
+    },
+    "example_task95": {
+        "task": "Turn on all faucets",
+        "scene": 4,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (91)",
+            "[SWITCHON] <faucet> (91)"
+        ],
+        "comment": ""
+    },
+    "example_task96": {
+        "task": "Turn on all faucets",
+        "scene": 4,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (91)",
+            "[SWITCHON] <faucet> (91)",
+            "[WALK] <faucet> (195)",
+            "[SWITCHON] <faucet> (195)"
+        ],
+        "comment": ""
+    },
+    "example_task97": {
+        "task": "Turn off all faucets",
+        "scene": 4,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (91)",
+            "[SWITCHOFF] <faucet> (91)",
+            "[WALK] <faucet> (195)",
+            "[SWITCHOFF] <faucet> (195)"
+        ],
+        "comment": ""
+    },
+    "example_task98": {
+        "task": "Turn off all faucets",
+        "scene": 4,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (91)",
+            "[SWITCHOFF] <faucet> (91)"
+        ],
+        "comment": ""
+    },
+    "example_task99": {
+        "task": "Turn off all faucets",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (195)",
+            "[SWITCHOFF] <faucet> (195)"
+        ],
+        "comment": ""
+    },
+    "example_task100": {
+        "task": "Turn off all faucets",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 91,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 195,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already OFF."
+    },
+    "example_task101": {
+        "task": "Turn off all cellphones",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 157,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 157,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (157)",
+            "[SWITCHOFF] <cellphone> (157)",
+            "[WALK] <cellphone> (249)",
+            "[SWITCHOFF] <cellphone> (249)"
+        ],
+        "comment": ""
+    },
+    "example_task102": {
+        "task": "Turn off all cellphones",
+        "scene": 4,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 157,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 157,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (157)",
+            "[SWITCHOFF] <cellphone> (157)"
+        ],
+        "comment": ""
+    },
+    "example_task103": {
+        "task": "Turn off all cellphones",
+        "scene": 4,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 157,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 157,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (249)",
+            "[SWITCHOFF] <cellphone> (249)"
+        ],
+        "comment": ""
+    },
+    "example_task104": {
+        "task": "Turn off all cellphones",
+        "scene": 4,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 157,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 157,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 249,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All cellphones are already OFF."
+    },
+    "example_task105": {
+        "task": "Turn on all tablelamps",
+        "scene": 5,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 78,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 78,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All tablelamps are already ON."
+    },
+    "example_task106": {
+        "task": "Turn on all tablelamps",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 78,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 78,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (229)",
+            "[SWITCHON] <tablelamp> (229)"
+        ],
+        "comment": ""
+    },
+    "example_task107": {
+        "task": "Turn on all tablelamps",
+        "scene": 5,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 78,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 78,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (78)",
+            "[SWITCHON] <tablelamp> (78)"
+        ],
+        "comment": ""
+    },
+    "example_task108": {
+        "task": "Turn on all tablelamps",
+        "scene": 5,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 78,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 78,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 229,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <tablelamp> (78)",
+            "[SWITCHON] <tablelamp> (78)",
+            "[WALK] <tablelamp> (229)",
+            "[SWITCHON] <tablelamp> (229)"
+        ],
+        "comment": ""
+    },
+    "example_task109": {
+        "task": "Turn on all faucets",
+        "scene": 5,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already ON."
+    },
+    "example_task110": {
+        "task": "Turn on all faucets",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (300)",
+            "[SWITCHON] <faucet> (300)"
+        ],
+        "comment": ""
+    },
+    "example_task111": {
+        "task": "Turn on all faucets",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (152)",
+            "[SWITCHON] <faucet> (152)"
+        ],
+        "comment": ""
+    },
+    "example_task112": {
+        "task": "Turn on all faucets",
+        "scene": 5,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (152)",
+            "[SWITCHON] <faucet> (152)",
+            "[WALK] <faucet> (300)",
+            "[SWITCHON] <faucet> (300)"
+        ],
+        "comment": ""
+    },
+    "example_task113": {
+        "task": "Turn off all cellphones",
+        "scene": 5,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 101,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 101,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (101)",
+            "[SWITCHOFF] <cellphone> (101)",
+            "[WALK] <cellphone> (187)",
+            "[SWITCHOFF] <cellphone> (187)"
+        ],
+        "comment": ""
+    },
+    "example_task114": {
+        "task": "Turn off all cellphones",
+        "scene": 5,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 101,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 101,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (101)",
+            "[SWITCHOFF] <cellphone> (101)"
+        ],
+        "comment": ""
+    },
+    "example_task115": {
+        "task": "Turn off all cellphones",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 101,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 101,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (187)",
+            "[SWITCHOFF] <cellphone> (187)"
+        ],
+        "comment": ""
+    },
+    "example_task116": {
+        "task": "Turn off all cellphones",
+        "scene": 5,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 101,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 101,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 187,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All cellphones are already OFF."
+    },
+    "example_task117": {
+        "task": "Turn off all faucets",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (152)",
+            "[SWITCHOFF] <faucet> (152)",
+            "[WALK] <faucet> (300)",
+            "[SWITCHOFF] <faucet> (300)"
+        ],
+        "comment": ""
+    },
+    "example_task118": {
+        "task": "Turn off all faucets",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (152)",
+            "[SWITCHOFF] <faucet> (152)"
+        ],
+        "comment": ""
+    },
+    "example_task119": {
+        "task": "Turn off all faucets",
+        "scene": 5,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (300)",
+            "[SWITCHOFF] <faucet> (300)"
+        ],
+        "comment": ""
+    },
+    "example_task120": {
+        "task": "Turn off all faucets",
+        "scene": 5,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 152,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 300,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already OFF."
+    },
+    "example_task121": {
+        "task": "Turn on all faucets",
+        "scene": 6,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already ON."
+    },
+    "example_task122": {
+        "task": "Turn on all faucets",
+        "scene": 6,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (199)",
+            "[SWITCHON] <faucet> (199)"
+        ],
+        "comment": ""
+    },
+    "example_task123": {
+        "task": "Turn on all faucets",
+        "scene": 6,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (38)",
+            "[SWITCHON] <faucet> (38)"
+        ],
+        "comment": ""
+    },
+    "example_task124": {
+        "task": "Turn on all faucets",
+        "scene": 6,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (38)",
+            "[SWITCHON] <faucet> (38)",
+            "[WALK] <faucet> (199)",
+            "[SWITCHON] <faucet> (199)"
+        ],
+        "comment": ""
+    },
+    "example_task125": {
+        "task": "Turn off all faucets",
+        "scene": 6,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (38)",
+            "[SWITCHOFF] <faucet> (38)",
+            "[WALK] <faucet> (199)",
+            "[SWITCHOFF] <faucet> (199)"
+        ],
+        "comment": ""
+    },
+    "example_task126": {
+        "task": "Turn off all faucets",
+        "scene": 6,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (38)",
+            "[SWITCHOFF] <faucet> (38)"
+        ],
+        "comment": ""
+    },
+    "example_task127": {
+        "task": "Turn off all faucets",
+        "scene": 6,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (199)",
+            "[SWITCHOFF] <faucet> (199)"
+        ],
+        "comment": ""
+    },
+    "example_task128": {
+        "task": "Turn off all faucets",
+        "scene": 6,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 38,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 199,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already OFF."
+    },
+    "example_task129": {
+        "task": "Turn off all cellphones",
+        "scene": 6,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 223,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 223,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (223)",
+            "[SWITCHOFF] <cellphone> (223)",
+            "[WALK] <cellphone> (323)",
+            "[SWITCHOFF] <cellphone> (323)"
+        ],
+        "comment": ""
+    },
+    "example_task130": {
+        "task": "Turn off all cellphones",
+        "scene": 6,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 223,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 223,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (223)",
+            "[SWITCHOFF] <cellphone> (223)"
+        ],
+        "comment": ""
+    },
+    "example_task131": {
+        "task": "Turn off all cellphones",
+        "scene": 6,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 223,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 223,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (323)",
+            "[SWITCHOFF] <cellphone> (323)"
+        ],
+        "comment": ""
+    },
+    "example_task132": {
+        "task": "Turn off all cellphones",
+        "scene": 6,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 223,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 223,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 323,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All cellphones are already OFF."
+    },
+    "example_task133": {
+        "task": "Turn on all faucets",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already ON."
+    },
+    "example_task134": {
+        "task": "Turn on all faucets",
+        "scene": 7,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (149)",
+            "[SWITCHON] <faucet> (149)"
+        ],
+        "comment": ""
+    },
+    "example_task135": {
+        "task": "Turn on all faucets",
+        "scene": 7,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (30)",
+            "[SWITCHON] <faucet> (30)"
+        ],
+        "comment": ""
+    },
+    "example_task136": {
+        "task": "Turn on all faucets",
+        "scene": 7,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (30)",
+            "[SWITCHON] <faucet> (30)",
+            "[WALK] <faucet> (149)",
+            "[SWITCHON] <faucet> (149)"
+        ],
+        "comment": ""
+    },
+    "example_task137": {
+        "task": "Turn on all computers",
+        "scene": 7,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All computers are already ON."
+    },
+    "example_task138": {
+        "task": "Turn on all computers",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (324)",
+            "[SWITCHON] <computer> (324)"
+        ],
+        "comment": ""
+    },
+    "example_task139": {
+        "task": "Turn on all computers",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (274)",
+            "[SWITCHON] <computer> (274)"
+        ],
+        "comment": ""
+    },
+    "example_task140": {
+        "task": "Turn on all computers",
+        "scene": 7,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 274,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 274,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 324,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <computer> (274)",
+            "[SWITCHON] <computer> (274)",
+            "[WALK] <computer> (324)",
+            "[SWITCHON] <computer> (324)"
+        ],
+        "comment": ""
+    },
+    "example_task141": {
+        "task": "Turn off all faucets",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (30)",
+            "[SWITCHOFF] <faucet> (30)",
+            "[WALK] <faucet> (149)",
+            "[SWITCHOFF] <faucet> (149)"
+        ],
+        "comment": ""
+    },
+    "example_task142": {
+        "task": "Turn off all faucets",
+        "scene": 7,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (30)",
+            "[SWITCHOFF] <faucet> (30)"
+        ],
+        "comment": ""
+    },
+    "example_task143": {
+        "task": "Turn off all faucets",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <faucet> (149)",
+            "[SWITCHOFF] <faucet> (149)"
+        ],
+        "comment": ""
+    },
+    "example_task144": {
+        "task": "Turn off all faucets",
+        "scene": 7,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 30,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 149,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All faucets are already OFF."
+    },
+    "example_task145": {
+        "task": "Turn off all candles",
+        "scene": 7,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (124)",
+            "[SWITCHOFF] <candle> (124)",
+            "[WALK] <candle> (127)",
+            "[SWITCHOFF] <candle> (127)"
+        ],
+        "comment": ""
+    },
+    "example_task146": {
+        "task": "Turn off all candles",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (124)",
+            "[SWITCHOFF] <candle> (124)"
+        ],
+        "comment": ""
+    },
+    "example_task147": {
+        "task": "Turn off all candles",
+        "scene": 7,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <candle> (127)",
+            "[SWITCHOFF] <candle> (127)"
+        ],
+        "comment": ""
+    },
+    "example_task148": {
+        "task": "Turn off all candles",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 124,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 127,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All candles are already OFF."
+    },
+    "example_task149": {
+        "task": "Turn off all cellphones",
+        "scene": 7,
+        "initial_room": "bedroom",
+        "initial_states": [
+            {
+                "id": 268,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 268,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (268)",
+            "[SWITCHOFF] <cellphone> (268)",
+            "[WALK] <cellphone> (271)",
+            "[SWITCHOFF] <cellphone> (271)"
+        ],
+        "comment": ""
+    },
+    "example_task150": {
+        "task": "Turn off all cellphones",
+        "scene": 7,
+        "initial_room": "bathroom",
+        "initial_states": [
+            {
+                "id": 268,
+                "states": [
+                    "ON"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 268,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (268)",
+            "[SWITCHOFF] <cellphone> (268)"
+        ],
+        "comment": ""
+    },
+    "example_task151": {
+        "task": "Turn off all cellphones",
+        "scene": 7,
+        "initial_room": "kitchen",
+        "initial_states": [
+            {
+                "id": 268,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "ON"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 268,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [
+            "[WALK] <cellphone> (271)",
+            "[SWITCHOFF] <cellphone> (271)"
+        ],
+        "comment": ""
+    },
+    "example_task152": {
+        "task": "Turn off all cellphones",
+        "scene": 7,
+        "initial_room": "livingroom",
+        "initial_states": [
+            {
+                "id": 268,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "goal_states": [
+            {
+                "id": 268,
+                "states": [
+                    "OFF"
+                ]
+            },
+            {
+                "id": 271,
+                "states": [
+                    "OFF"
+                ]
+            }
+        ],
+        "action_scripts": [],
+        "comment": "All cellphones are already OFF."
+    }
+}

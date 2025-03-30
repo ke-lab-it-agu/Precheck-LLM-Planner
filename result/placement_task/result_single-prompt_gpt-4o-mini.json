@@ -1,0 +1,1471 @@
+{
+    "test_task1": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <bedroom> (73)",
+            "[GRAB] <cupcake> (195)",
+            "[WALK] <desk> (108)",
+            "[GRAB] <cupcake> (196)",
+            "[WALK] <kitchencounter> (238)"
+        ],
+        "attempts": 5
+    },
+    "test_task2": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounter> (238)",
+            "[WALK] <bookshelf> (249)",
+            "[GRAB] <bananas> (315)",
+            "[WALK] <kitchencounter> (238)",
+            "[PUT] <bananas> (315) <kitchencounter> (238)",
+            "[WALK] <bookshelf> (249)",
+            "[GRAB] <bananas> (316)",
+            "[WALK] <kitchencounter> (238)",
+            "[PUT] <bananas> (316) <kitchencounter> (238)"
+        ],
+        "attempts": 9
+    },
+    "test_task3": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounterdrawer> (244)",
+            "[GRAB] <bellpepper> (320)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <bellpepper> (320) <kitchentable> (231)",
+            "[WALK] <bellpepper> (321)",
+            "[GRAB] <bellpepper> (321)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <bellpepper> (321) <kitchentable> (231)",
+            "[WALK] <kitchencounterdrawer> (244)",
+            "[GRAB] <bellpepper> (322)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <bellpepper> (322) <kitchentable> (231)"
+        ],
+        "attempts": 12
+    },
+    "test_task4": {
+        "score": 0.0,
+        "result": "Reaching Maximum Attempts",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task5": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <chips> (328)",
+            "[GRAB] <chips> (328)",
+            "[WALK] <wallshelf> (250)",
+            "[GRAB] <chips> (329)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <chips> (328) <kitchentable> (231)",
+            "[PUT] <chips> (329) <kitchentable> (231)"
+        ],
+        "attempts": 7
+    },
+    "test_task6": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <apple> (437)",
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <apple> (438)",
+            "[WALK] <kitchencounter> (238)",
+            "[PUT] <apple> (437) <kitchencounter> (238)"
+        ],
+        "attempts": 6
+    },
+    "test_task7": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <peach> (441)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <peach> (441) <kitchentable> (231)",
+            "[WALK] <peach> (442)",
+            "[GRAB] <peach> (442)",
+            "[WALK] <kitchentable> (231)",
+            "[PUT] <peach> (442) <kitchentable> (231)"
+        ],
+        "attempts": 8
+    },
+    "test_task8": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <peach> (441)",
+            "[WALK] <peach> (442)",
+            "[GRAB] <peach> (442)",
+            "[WALK] <kitchencounter> (238)",
+            "[PUT] <peach> (441) <kitchencounter> (238)",
+            "[PUT] <peach> (442) <kitchencounter> (238)"
+        ],
+        "attempts": 7
+    },
+    "test_task9": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <plum> (443)",
+            "[WALK] <plum> (444)",
+            "[GRAB] <plum> (444)",
+            "[WALK] <kitchencounter> (238)",
+            "[PUT] <plum> (443) <kitchencounter> (238)"
+        ],
+        "attempts": 6
+    },
+    "test_task10": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <desk> (108)",
+            "[GRAB] <cupcake> (195)",
+            "[WALK] <cupcake> (196)",
+            "[GRAB] <cupcake> (196)",
+            "[WALK] <kitchen> (205)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <cupcake> (195) <microwave> (313)",
+            "[PUTIN] <cupcake> (196) <microwave> (313)"
+        ],
+        "attempts": 8
+    },
+    "test_task11": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <desk> (108)",
+            "[GRAB] <cupcake> (195)",
+            "[WALK] <cupcake> (196)",
+            "[GRAB] <cupcake> (196)",
+            "[WALK] <kitchen> (205)",
+            "[WALK] <microwave> (313)"
+        ],
+        "attempts": 6
+    },
+    "test_task12": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[GRAB] <bananas> (439)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bananas> (439) <fridge> (305)",
+            "[WALK] <bananas> (315)",
+            "[GRAB] <bananas> (315)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bananas> (315) <fridge> (305)",
+            "[WALK] <bananas> (316)",
+            "[GRAB] <bananas> (316)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bananas> (316) <fridge> (305)"
+        ],
+        "attempts": 11
+    },
+    "test_task13": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <fridge> (305)",
+            "[OPEN] <fridge> (305)",
+            "[WALK] <bananas> (315)",
+            "[GRAB] <bananas> (315)",
+            "[WALK] <bananas> (316)",
+            "[GRAB] <bananas> (316)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bananas> (315) <fridge> (305)",
+            "[PUTIN] <bananas> (316) <fridge> (305)",
+            "[WALK] <bananas> (439)",
+            "[GRAB] <bananas> (439)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bananas> (439) <fridge> (305)"
+        ],
+        "attempts": 13
+    },
+    "test_task14": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bookshelf> (249)",
+            "[GRAB] <bananas> (316)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bananas> (316) <microwave> (313)",
+            "[WALK] <bananas> (315)",
+            "[GRAB] <bananas> (315)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bananas> (315) <microwave> (313)"
+        ],
+        "attempts": 8
+    },
+    "test_task15": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bookshelf> (249)",
+            "[GRAB] <bananas> (315)",
+            "[WALK] <microwave> (313)",
+            "[OPEN] <microwave> (313)",
+            "[PUTIN] <bananas> (315) <microwave> (313)",
+            "[WALK] <bananas> (316)",
+            "[GRAB] <bananas> (316)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <bananas> (316) <microwave> (313)"
+        ],
+        "attempts": 9
+    },
+    "test_task16": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (205)",
+            "[GRAB] <bellpepper> (320)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (320) <fridge> (305)",
+            "[WALK] <bellpepper> (321)",
+            "[GRAB] <bellpepper> (321)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (321) <fridge> (305)",
+            "[WALK] <kitchencounterdrawer> (244)",
+            "[GRAB] <bellpepper> (322)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (322) <fridge> (305)",
+            "[WALK] <bellpepper> (323)",
+            "[GRAB] <bellpepper> (323)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (323) <fridge> (305)",
+            "[WALK] <kitchencounter> (238)",
+            "[GRAB] <bellpepper> (324)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (324) <fridge> (305)",
+            "[WALK] <bellpepper> (325)",
+            "[GRAB] <bellpepper> (325)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (325) <fridge> (305)"
+        ],
+        "attempts": 24
+    },
+    "test_task17": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchen> (205)",
+            "[GRAB] <bellpepper> (320)",
+            "[WALK] <fridge> (305)",
+            "[OPEN] <fridge> (305)",
+            "[PUTIN] <bellpepper> (320) <fridge> (305)",
+            "[WALK] <bellpepper> (321)",
+            "[GRAB] <bellpepper> (321)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (321) <fridge> (305)",
+            "[WALK] <bellpepper> (322)",
+            "[GRAB] <bellpepper> (322)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (322) <fridge> (305)",
+            "[WALK] <bellpepper> (323)",
+            "[GRAB] <bellpepper> (323)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <bellpepper> (323) <fridge> (305)"
+        ],
+        "attempts": 17
+    },
+    "test_task18": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <peach> (441)",
+            "[PUT] <peach> (441) <coffeetable> (371)",
+            "[WALK] <fridge> (305)",
+            "[GRAB] <peach> (442)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <peach> (442) <fridge> (305)",
+            "[WALK] <fridge> (305)",
+            "[GRAB] <peach> (441)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <peach> (441) <fridge> (305)"
+        ],
+        "attempts": 11
+    },
+    "test_task19": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <peach> (441)",
+            "[GRAB] <peach> (441)",
+            "[WALK] <fridge> (305)",
+            "[OPEN] <fridge> (305)",
+            "[PUTIN] <peach> (441) <fridge> (305)",
+            "[WALK] <peach> (442)",
+            "[GRAB] <peach> (442)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <peach> (442) <fridge> (305)"
+        ],
+        "attempts": 9
+    },
+    "test_task20": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <peach> (441)",
+            "[WALK] <peach> (442)",
+            "[GRAB] <peach> (442)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <peach> (441) <microwave> (313)",
+            "[PUTIN] <peach> (442) <microwave> (313)"
+        ],
+        "attempts": 7
+    },
+    "test_task21": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <peach> (441)",
+            "[GRAB] <peach> (441)",
+            "[WALK] <microwave> (313)",
+            "[SWITCHOFF] <microwave> (313)",
+            "[OPEN] <microwave> (313)",
+            "[PUTIN] <peach> (441) <microwave> (313)",
+            "[WALK] <peach> (442)",
+            "[GRAB] <peach> (442)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <peach> (442) <microwave> (313)"
+        ],
+        "attempts": 10
+    },
+    "test_task22": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <plum> (443)",
+            "[GRAB] <plum> (443)",
+            "[WALK] <plum> (444)",
+            "[GRAB] <plum> (444)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <plum> (443) <fridge> (305)",
+            "[PUTIN] <plum> (444) <fridge> (305)"
+        ],
+        "attempts": 7
+    },
+    "test_task23": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <plum> (443)",
+            "[WALK] <fridge> (305)",
+            "[OPEN] <fridge> (305)",
+            "[PUTIN] <plum> (443) <fridge> (305)",
+            "[WALK] <plum> (444)",
+            "[GRAB] <plum> (444)",
+            "[WALK] <fridge> (305)",
+            "[PUTIN] <plum> (444) <fridge> (305)"
+        ],
+        "attempts": 9
+    },
+    "test_task24": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <plum> (443)",
+            "[WALK] <plum> (444)",
+            "[GRAB] <plum> (444)",
+            "[WALK] <microwave> (313)",
+            "[PUTIN] <plum> (443) <microwave> (313)",
+            "[PUTIN] <plum> (444) <microwave> (313)"
+        ],
+        "attempts": 7
+    },
+    "test_task25": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (371)",
+            "[GRAB] <plum> (443)",
+            "[WALK] <microwave> (313)",
+            "[SWITCHOFF] <microwave> (313)",
+            "[CLOSE] <microwave> (313)",
+            "[PUTIN] <plum> (443) <microwave> (313)",
+            "[WALK] <plum> (444)",
+            "[GRAB] <plum> (444)",
+            "[WALK] <microwave> (313)",
+            "[SWITCHOFF] <microwave> (313)",
+            "[OPEN] <microwave> (313)",
+            "[PUTIN] <plum> (444) <microwave> (313)"
+        ],
+        "attempts": 12
+    },
+    "test_task26": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bedroom> (50)",
+            "[GRAB] <peach> (118)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <peach> (118) <kitchentable> (199)",
+            "[WALK] <peach> (117)",
+            "[GRAB] <peach> (117)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <peach> (117) <kitchentable> (199)"
+        ],
+        "attempts": 8
+    },
+    "test_task27": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bookshelf> (223)",
+            "[GRAB] <creamybuns> (243)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <creamybuns> (243) <kitchentable> (199)"
+        ],
+        "attempts": 4
+    },
+    "test_task28": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bookshelf> (223)",
+            "[GRAB] <chips> (245)",
+            "[WALK] <kitchentable> (199)",
+            "[PUT] <chips> (245) <kitchentable> (199)"
+        ],
+        "attempts": 4
+    },
+    "test_task29": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <peach> (117)",
+            "[WALK] <fridge> (225)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <peach> (117) <fridge> (225)",
+            "[WALK] <peach> (118)",
+            "[GRAB] <peach> (118)",
+            "[WALK] <fridge> (225)"
+        ],
+        "attempts": 8
+    },
+    "test_task30": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <peach> (117)",
+            "[WALK] <fridge> (225)",
+            "[OPEN] <fridge> (225)",
+            "[PUTIN] <peach> (117) <fridge> (225)",
+            "[WALK] <peach> (118)",
+            "[GRAB] <peach> (118)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <peach> (118) <fridge> (225)"
+        ],
+        "attempts": 9
+    },
+    "test_task31": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bedroom> (50)",
+            "[GRAB] <peach> (117)",
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <peach> (118)"
+        ],
+        "attempts": 4
+    },
+    "test_task32": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <peach> (117)",
+            "[GRAB] <peach> (117)",
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <peach> (118)",
+            "[WALK] <microwave> (234)"
+        ],
+        "attempts": 5
+    },
+    "test_task33": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <plum> (120)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <plum> (120) <fridge> (225)",
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <plum> (119)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <plum> (119) <fridge> (225)"
+        ],
+        "attempts": 8
+    },
+    "test_task34": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <plum> (120)",
+            "[WALK] <fridge> (225)",
+            "[OPEN] <fridge> (225)",
+            "[PUTIN] <plum> (120) <fridge> (225)",
+            "[WALK] <plum> (119)",
+            "[GRAB] <plum> (119)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <plum> (119) <fridge> (225)"
+        ],
+        "attempts": 9
+    },
+    "test_task35": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <coffeetable> (86)",
+            "[GRAB] <plum> (120)",
+            "[WALK] <plum> (119)",
+            "[GRAB] <plum> (119)"
+        ],
+        "attempts": 4
+    },
+    "test_task36": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <plum> (119)",
+            "[GRAB] <plum> (119)",
+            "[WALK] <plum> (120)",
+            "[GRAB] <plum> (120)",
+            "[WALK] <dishwasher> (228)",
+            "[WALK] <microwave> (234)"
+        ],
+        "attempts": 6
+    },
+    "test_task37": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <creamybuns> (243)",
+            "[GRAB] <creamybuns> (243)",
+            "[WALK] <fridge> (225)",
+            "[PUTIN] <creamybuns> (243) <fridge> (225)",
+            "[WALK] <creamybuns> (244)",
+            "[GRAB] <creamybuns> (244)"
+        ],
+        "attempts": 6
+    },
+    "test_task38": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <creamybuns> (243)",
+            "[GRAB] <creamybuns> (243)",
+            "[WALK] <fridge> (225)",
+            "[OPEN] <fridge> (225)",
+            "[PUTIN] <creamybuns> (243) <fridge> (225)"
+        ],
+        "attempts": 5
+    },
+    "test_task39": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <creamybuns> (243)",
+            "[GRAB] <creamybuns> (243)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <creamybuns> (243) <microwave> (234)"
+        ],
+        "attempts": 4
+    },
+    "test_task40": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <creamybuns> (243)",
+            "[GRAB] <creamybuns> (243)",
+            "[WALK] <bookshelf> (223)"
+        ],
+        "attempts": 3
+    },
+    "test_task41": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <chips> (245)",
+            "[GRAB] <chips> (245)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <chips> (245) <microwave> (234)",
+            "[WALK] <chips> (246)",
+            "[GRAB] <chips> (246)",
+            "[WALK] <microwave> (234)",
+            "[PUTIN] <chips> (246) <microwave> (234)"
+        ],
+        "attempts": 8
+    },
+    "test_task42": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <chips> (245)",
+            "[GRAB] <chips> (245)",
+            "[WALK] <bookshelf> (223)",
+            "[GRAB] <chips> (246)",
+            "[WALK] <microwave> (234)"
+        ],
+        "attempts": 5
+    },
+    "test_task43": {
+        "score": 0.0,
+        "result": "Reaching Maximum Attempts",
+        "action script": [
+            "[WALK] <kitchencounterdrawer> (152)",
+            "[GRAB] <milk> (176)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)",
+            "[WALK] <coffeetable> (157)"
+        ],
+        "attempts": 16
+    },
+    "test_task44": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[GRAB] <bananas> (178)",
+            "[WALK] <oventray> (231)"
+        ],
+        "attempts": 2
+    },
+    "test_task45": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <bananas> (178)",
+            "[GRAB] <bananas> (178)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)",
+            "[WALK] <coffeetable> (231)"
+        ],
+        "attempts": 14
+    },
+    "test_task46": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <coffeetable> (215)"
+        ],
+        "attempts": 1
+    },
+    "test_task47": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <juice> (173)",
+            "[GRAB] <juice> (173)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <juice> (173) <fridge> (162)",
+            "[WALK] <juice> (174)",
+            "[GRAB] <juice> (174)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <juice> (174) <fridge> (162)"
+        ],
+        "attempts": 8
+    },
+    "test_task48": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[GRAB] <juice> (173)",
+            "[WALK] <fridge> (162)",
+            "[OPEN] <fridge> (162)",
+            "[PUTIN] <juice> (173) <fridge> (162)",
+            "[WALK] <juice> (174)",
+            "[GRAB] <juice> (174)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <juice> (174) <fridge> (162)"
+        ],
+        "attempts": 8
+    },
+    "test_task49": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <milk> (176)",
+            "[GRAB] <milk> (176)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <milk> (176) <microwave> (171)",
+            "[WALK] <milk> (177)",
+            "[GRAB] <milk> (177)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <milk> (177) <microwave> (171)"
+        ],
+        "attempts": 8
+    },
+    "test_task50": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <milk> (176)",
+            "[GRAB] <milk> (176)",
+            "[WALK] <microwave> (171)",
+            "[OPEN] <microwave> (171)",
+            "[PUTIN] <milk> (176) <microwave> (171)",
+            "[WALK] <milk> (177)",
+            "[GRAB] <milk> (177)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <milk> (177) <microwave> (171)"
+        ],
+        "attempts": 9
+    },
+    "test_task51": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[GRAB] <bananas> (178)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <bananas> (178) <fridge> (162)",
+            "[WALK] <bananas> (179)",
+            "[GRAB] <bananas> (179)",
+            "[WALK] <fridge> (162)",
+            "[PUTIN] <bananas> (179) <fridge> (162)"
+        ],
+        "attempts": 7
+    },
+    "test_task52": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bananas> (178)",
+            "[GRAB] <bananas> (179)",
+            "[WALK] <fridge> (162)",
+            "[OPEN] <fridge> (162)",
+            "[PUTIN] <bananas> (179) <fridge> (162)",
+            "[GRAB] <bananas> (178)",
+            "[PUTIN] <bananas> (178) <fridge> (162)"
+        ],
+        "attempts": 7
+    },
+    "test_task53": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bananas> (178)",
+            "[GRAB] <bananas> (179)",
+            "[PUTIN] <bananas> (179) <microwave> (171)"
+        ],
+        "attempts": 3
+    },
+    "test_task54": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bananas> (178)",
+            "[GRAB] <bananas> (179)",
+            "[WALK] <microwave> (171)",
+            "[SWITCHOFF] <microwave> (171)",
+            "[CLOSE] <microwave> (171)",
+            "[PUTIN] <bananas> (179) <microwave> (171)"
+        ],
+        "attempts": 6
+    },
+    "test_task55": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <cupcake> (385)",
+            "[GRAB] <cupcake> (385)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <cupcake> (385) <microwave> (171)",
+            "[WALK] <cupcake> (225)",
+            "[GRAB] <cupcake> (225)",
+            "[WALK] <microwave> (171)",
+            "[PUTIN] <cupcake> (225) <microwave> (171)"
+        ],
+        "attempts": 8
+    },
+    "test_task56": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <livingroom> (183)",
+            "[GRAB] <cupcake> (225)",
+            "[WALK] <microwave> (171)",
+            "[SWITCHOFF] <microwave> (171)",
+            "[OPEN] <microwave> (171)",
+            "[PUTIN] <cupcake> (225) <microwave> (171)",
+            "[WALK] <cupcake> (226)",
+            "[GRAB] <cupcake> (226)",
+            "[WALK] <microwave> (171)",
+            "[SWITCHOFF] <microwave> (171)",
+            "[OPEN] <microwave> (171)",
+            "[PUTIN] <cupcake> (226) <microwave> (171)"
+        ],
+        "attempts": 12
+    },
+    "test_task57": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <peach> (51)",
+            "[WALK] <kitchentable> (72)",
+            "[PUT] <peach> (51) <kitchentable> (72)"
+        ],
+        "attempts": 4
+    },
+    "test_task58": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <crackers> (63)",
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <crackers> (63)",
+            "[WALK] <kitchentable> (72)",
+            "[WALK] <kitchentable> (72)",
+            "[WALK] <kitchentable> (72)",
+            "[WALK] <kitchentable> (72)",
+            "[PUT] <crackers> (63) <kitchentable> (72)"
+        ],
+        "attempts": 8
+    },
+    "test_task59": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (269)",
+            "[GRAB] <cupcake> (324)",
+            "[WALK] <cupcake> (245)",
+            "[GRAB] <cupcake> (245)",
+            "[WALK] <coffeetable> (269)",
+            "[PUT] <cupcake> (324) <coffeetable> (269)",
+            "[PUT] <cupcake> (245) <coffeetable> (269)"
+        ],
+        "attempts": 7
+    },
+    "test_task60": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <peach> (51)",
+            "[GRAB] <peach> (51)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <peach> (51) <fridge> (103)",
+            "[WALK] <peach> (52)",
+            "[GRAB] <peach> (52)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <peach> (52) <fridge> (103)"
+        ],
+        "attempts": 8
+    },
+    "test_task61": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchen> (11)",
+            "[GRAB] <peach> (65)",
+            "[WALK] <fridge> (103)",
+            "[OPEN] <fridge> (103)",
+            "[PUTIN] <peach> (65) <fridge> (103)",
+            "[WALK] <peach> (51)",
+            "[GRAB] <peach> (51)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <peach> (51) <fridge> (103)"
+        ],
+        "attempts": 9
+    },
+    "test_task62": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounter> (81)",
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <peach> (52)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <peach> (52) <microwave> (109)",
+            "[WALK] <peach> (51)",
+            "[GRAB] <peach> (51)",
+            "[WALK] <microwave> (109)",
+            "[WALK] <microwave> (109)",
+            "[WALK] <microwave> (109)",
+            "[WALK] <microwave> (109)",
+            "[WALK] <microwave> (109)",
+            "[WALK] <microwave> (109)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <peach> (51) <microwave> (109)"
+        ],
+        "attempts": 15
+    },
+    "test_task63": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <peach> (51)",
+            "[WALK] <microwave> (109)",
+            "[OPEN] <microwave> (109)",
+            "[PUTIN] <peach> (51) <microwave> (109)",
+            "[WALK] <peach> (52)",
+            "[GRAB] <peach> (52)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <peach> (52) <microwave> (109)"
+        ],
+        "attempts": 9
+    },
+    "test_task64": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[GRAB] <plum> (53)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <plum> (53) <fridge> (103)"
+        ],
+        "attempts": 3
+    },
+    "test_task65": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <plum> (53)",
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <plum> (54)",
+            "[WALK] <fridge> (103)",
+            "[OPEN] <fridge> (103)",
+            "[WALK] <fridge> (103)"
+        ],
+        "attempts": 6
+    },
+    "test_task66": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <plum> (53)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <plum> (53) <microwave> (109)",
+            "[WALK] <plum> (54)",
+            "[GRAB] <plum> (54)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <plum> (54) <microwave> (109)"
+        ],
+        "attempts": 8
+    },
+    "test_task67": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <plum> (53)",
+            "[WALK] <microwave> (109)",
+            "[OPEN] <microwave> (109)",
+            "[PUTIN] <plum> (53) <microwave> (109)",
+            "[WALK] <plum> (54)",
+            "[GRAB] <plum> (54)"
+        ],
+        "attempts": 7
+    },
+    "test_task68": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <plum> (53)",
+            "[WALK] <plum> (54)",
+            "[GRAB] <plum> (54)",
+            "[WALK] <fryingpan> (122)"
+        ],
+        "attempts": 5
+    },
+    "test_task69": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <crackers> (63)",
+            "[GRAB] <crackers> (63)",
+            "[WALK] <fridge> (103)",
+            "[PUTIN] <crackers> (63) <fridge> (103)"
+        ],
+        "attempts": 4
+    },
+    "test_task70": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <crackers> (63)",
+            "[GRAB] <crackers> (63)",
+            "[WALK] <fridge> (103)",
+            "[OPEN] <fridge> (103)",
+            "[PUTIN] <crackers> (63) <fridge> (103)"
+        ],
+        "attempts": 5
+    },
+    "test_task71": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <kitchencounter> (92)",
+            "[GRAB] <crackers> (63)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <crackers> (63) <microwave> (109)"
+        ],
+        "attempts": 4
+    },
+    "test_task72": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <crackers> (63)",
+            "[GRAB] <crackers> (63)",
+            "[WALK] <microwave> (109)",
+            "[OPEN] <microwave> (109)",
+            "[PUTIN] <crackers> (63) <microwave> (109)",
+            "[WALK] <crackers> (66)",
+            "[GRAB] <crackers> (66)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <crackers> (66) <microwave> (109)"
+        ],
+        "attempts": 9
+    },
+    "test_task73": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <cupcake> (324)",
+            "[GRAB] <cupcake> (324)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <cupcake> (324) <microwave> (109)",
+            "[WALK] <cupcake> (245)",
+            "[GRAB] <cupcake> (245)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <cupcake> (245) <microwave> (109)"
+        ],
+        "attempts": 8
+    },
+    "test_task74": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <cupcake> (324)",
+            "[GRAB] <cupcake> (324)",
+            "[WALK] <microwave> (109)",
+            "[OPEN] <microwave> (109)",
+            "[PUTIN] <cupcake> (324) <microwave> (109)",
+            "[WALK] <cupcake> (245)",
+            "[GRAB] <cupcake> (245)",
+            "[WALK] <microwave> (109)",
+            "[PUTIN] <cupcake> (245) <microwave> (109)"
+        ],
+        "attempts": 9
+    },
+    "test_task75": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <desk> (29)",
+            "[WALK] <kitchentable> (138)",
+            "[GRAB] <cupcake> (211)",
+            "[WALK] <desk> (29)"
+        ],
+        "attempts": 4
+    },
+    "test_task76": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[GRAB] <bananas> (203)",
+            "[WALK] <desk> (29)",
+            "[PUT] <bananas> (203) <desk> (29)",
+            "[WALK] <bananas> (204)",
+            "[GRAB] <bananas> (204)",
+            "[WALK] <desk> (29)",
+            "[PUT] <bananas> (204) <desk> (29)"
+        ],
+        "attempts": 7
+    },
+    "test_task77": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[GRAB] <cupcake> (97)",
+            "[WALK] <kitchen> (111)",
+            "[WALK] <kitchentable> (138)",
+            "[PUT] <cupcake> (97) <kitchentable> (138)",
+            "[GRAB] <cupcake> (210)",
+            "[WALK] <microwave> (162)",
+            "[PUTIN] <cupcake> (210) <microwave> (162)"
+        ],
+        "attempts": 7
+    },
+    "test_task78": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[GRAB] <cupcake> (97)",
+            "[WALK] <microwave> (162)",
+            "[OPEN] <microwave> (162)",
+            "[PUTIN] <cupcake> (97) <microwave> (162)",
+            "[GRAB] <cupcake> (210)",
+            "[WALK] <microwave> (162)",
+            "[PUTIN] <cupcake> (210) <microwave> (162)"
+        ],
+        "attempts": 7
+    },
+    "test_task79": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[GRAB] <bananas> (203)",
+            "[PUTIN] <bananas> (203) <fridge> (157)",
+            "[WALK] <bananas> (204)",
+            "[GRAB] <bananas> (204)",
+            "[PUTIN] <bananas> (204) <fridge> (157)"
+        ],
+        "attempts": 5
+    },
+    "test_task80": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bananas> (203)",
+            "[GRAB] <bananas> (204)",
+            "[WALK] <fridge> (157)",
+            "[OPEN] <fridge> (157)",
+            "[PUTIN] <bananas> (204) <fridge> (157)",
+            "[WALK] <bananas> (203)",
+            "[GRAB] <bananas> (203)",
+            "[WALK] <fridge> (157)",
+            "[PUTIN] <bananas> (203) <fridge> (157)"
+        ],
+        "attempts": 9
+    },
+    "test_task81": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bananas> (203)",
+            "[GRAB] <bananas> (204)",
+            "[WALK] <kitchencounter> (150)",
+            "[PUTIN] <bananas> (204) <microwave> (162)"
+        ],
+        "attempts": 4
+    },
+    "test_task82": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bananas> (204)",
+            "[GRAB] <bananas> (204)",
+            "[WALK] <microwave> (162)",
+            "[SWITCHOFF] <microwave> (162)",
+            "[CLOSE] <microwave> (162)",
+            "[PUTIN] <bananas> (204) <microwave> (162)"
+        ],
+        "attempts": 6
+    },
+    "test_task83": {
+        "score": 0.0,
+        "result": "Reaching Maximum Attempts",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task84": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchencounter> (189)",
+            "[GRAB] <milk> (245)",
+            "[WALK] <kitchencounterdrawer> (195)",
+            "[WALK] <cuttingboard> (229)",
+            "[PUT] <milk> (245) <cuttingboard> (229)",
+            "[GRAB] <milk> (246)",
+            "[WALK] <cuttingboard> (229)",
+            "[PUT] <milk> (246) <cuttingboard> (229)"
+        ],
+        "attempts": 8
+    },
+    "test_task85": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchencounter> (189)",
+            "[GRAB] <milk> (245)",
+            "[WALK] <desk> (283)",
+            "[PUT] <milk> (245) <desk> (283)",
+            "[WALK] <kitchencounterdrawer> (195)",
+            "[GRAB] <milk> (246)",
+            "[WALK] <desk> (283)",
+            "[PUT] <milk> (246) <desk> (283)"
+        ],
+        "attempts": 8
+    },
+    "test_task86": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (162)",
+            "[GRAB] <milk> (245)",
+            "[WALK] <microwave> (239)",
+            "[PUTIN] <milk> (245) <microwave> (239)",
+            "[WALK] <milk> (246)",
+            "[GRAB] <milk> (246)",
+            "[WALK] <microwave> (239)",
+            "[PUTIN] <milk> (246) <microwave> (239)"
+        ],
+        "attempts": 8
+    },
+    "test_task87": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (162)",
+            "[GRAB] <milk> (245)",
+            "[WALK] <microwave> (239)",
+            "[OPEN] <microwave> (239)",
+            "[PUTIN] <milk> (245) <microwave> (239)",
+            "[WALK] <milk> (246)",
+            "[GRAB] <milk> (246)",
+            "[WALK] <microwave> (239)",
+            "[PUTIN] <milk> (246) <microwave> (239)"
+        ],
+        "attempts": 9
+    },
+    "test_task88": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <creamybuns> (188)",
+            "[GRAB] <creamybuns> (188)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <creamybuns> (188) <kitchentable> (129)"
+        ],
+        "attempts": 4
+    },
+    "test_task89": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bookshelf> (151)",
+            "[GRAB] <chips> (190)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <chips> (190) <kitchentable> (129)",
+            "[WALK] <chips> (191)",
+            "[GRAB] <chips> (191)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <chips> (191) <kitchentable> (129)"
+        ],
+        "attempts": 8
+    },
+    "test_task90": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <alcohol> (196)",
+            "[GRAB] <alcohol> (196)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <alcohol> (196) <kitchentable> (129)",
+            "[WALK] <alcohol> (248)",
+            "[GRAB] <alcohol> (248)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <alcohol> (248) <kitchentable> (129)"
+        ],
+        "attempts": 8
+    },
+    "test_task91": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (246)",
+            "[GRAB] <peach> (253)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <peach> (253) <kitchentable> (129)",
+            "[WALK] <peach> (254)",
+            "[GRAB] <peach> (254)",
+            "[WALK] <kitchentable> (129)",
+            "[PUT] <peach> (254) <kitchentable> (129)"
+        ],
+        "attempts": 8
+    },
+    "test_task92": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <creamybun> (188)"
+        ],
+        "attempts": 1
+    },
+    "test_task93": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <bookshelf> (151)",
+            "[GRAB] <creamybuns> (189)",
+            "[WALK] <bookshelf> (151)"
+        ],
+        "attempts": 3
+    },
+    "test_task94": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <chips> (190)",
+            "[GRAB] <chips> (190)",
+            "[WALK] <microwave> (166)"
+        ],
+        "attempts": 3
+    },
+    "test_task95": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bookshelf> (151)",
+            "[GRAB] <chips> (190)",
+            "[WALK] <microwave> (166)",
+            "[OPEN] <microwave> (166)",
+            "[PUTIN] <chips> (190) <microwave> (166)",
+            "[WALK] <chips> (191)",
+            "[GRAB] <chips> (191)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <chips> (191) <microwave> (166)"
+        ],
+        "attempts": 9
+    },
+    "test_task96": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <alcohol> (196)",
+            "[GRAB] <alcohol> (196)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <alcohol> (196) <microwave> (166)",
+            "[WALK] <alcohol> (248)",
+            "[GRAB] <alcohol> (248)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <alcohol> (248) <microwave> (166)"
+        ],
+        "attempts": 8
+    },
+    "test_task97": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[GRAB] <alcohol> (248)",
+            "[WALK] <bookshelf> (151)",
+            "[PUTIN] <alcohol> (248) <bookshelf> (151)",
+            "[GRAB] <alcohol> (196)",
+            "[WALK] <microwave> (166)",
+            "[OPEN] <microwave> (166)",
+            "[PUTIN] <alcohol> (196) <microwave> (166)"
+        ],
+        "attempts": 7
+    },
+    "test_task98": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <peach> (253)",
+            "[GRAB] <peach> (253)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <peach> (253) <microwave> (166)",
+            "[WALK] <peach> (254)",
+            "[GRAB] <peach> (254)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <peach> (254) <microwave> (166)"
+        ],
+        "attempts": 8
+    },
+    "test_task99": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <coffeetable> (246)",
+            "[GRAB] <peach> (253)",
+            "[WALK] <microwave> (166)",
+            "[OPEN] <microwave> (166)",
+            "[PUT] <peach> (253) <microwave> (166)"
+        ],
+        "attempts": 5
+    },
+    "test_task100": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (246)",
+            "[GRAB] <plum> (255)",
+            "[WALK] <plum> (256)",
+            "[GRAB] <plum> (256)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <plum> (255) <microwave> (166)",
+            "[PUTIN] <plum> (256) <microwave> (166)"
+        ],
+        "attempts": 7
+    },
+    "test_task101": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <coffeetable> (246)",
+            "[GRAB] <plum> (255)",
+            "[WALK] <microwave> (166)",
+            "[OPEN] <microwave> (166)",
+            "[PUTIN] <plum> (255) <microwave> (166)",
+            "[WALK] <plum> (256)",
+            "[GRAB] <plum> (256)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <plum> (256) <microwave> (166)"
+        ],
+        "attempts": 9
+    },
+    "test_task102": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[GRAB] <cupcake> (319)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <cupcake> (319) <microwave> (166)",
+            "[WALK] <cupcake> (320)",
+            "[GRAB] <cupcake> (320)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <cupcake> (320) <microwave> (166)"
+        ],
+        "attempts": 7
+    },
+    "test_task103": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[GRAB] <cupcake> (319)",
+            "[WALK] <microwave> (166)",
+            "[OPEN] <microwave> (166)",
+            "[PUTIN] <cupcake> (319) <microwave> (166)",
+            "[WALK] <cupcake> (320)",
+            "[GRAB] <cupcake> (320)",
+            "[WALK] <microwave> (166)",
+            "[PUTIN] <cupcake> (320) <microwave> (166)"
+        ],
+        "attempts": 8
+    }
+}

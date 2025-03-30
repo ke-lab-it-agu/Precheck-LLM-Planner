@@ -1,0 +1,3208 @@
+{
+    "test_task1": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task2": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHON] <lightswitch> (427)"
+        ],
+        "attempts": 2
+    },
+    "test_task3": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (261)"
+        ],
+        "attempts": 1
+    },
+    "test_task4": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (427)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHON] <lightswitch> (261)"
+        ],
+        "attempts": 3
+    },
+    "test_task5": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHON] <lightswitch> (173)"
+        ],
+        "attempts": 2
+    },
+    "test_task6": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHON] <lightswitch> (173)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHON] <lightswitch> (427)"
+        ],
+        "attempts": 4
+    },
+    "test_task7": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (261)",
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHON] <lightswitch> (173)"
+        ],
+        "attempts": 3
+    },
+    "test_task8": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (173)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHON] <lightswitch> (261)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHON] <lightswitch> (427)"
+        ],
+        "attempts": 5
+    },
+    "test_task9": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHON] <lightswitch> (71)"
+        ],
+        "attempts": 2
+    },
+    "test_task10": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHON] <lightswitch> (71)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHON] <lightswitch> (427)"
+        ],
+        "attempts": 4
+    },
+    "test_task11": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHON] <lightswitch> (71)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHON] <lightswitch> (261)"
+        ],
+        "attempts": 4
+    },
+    "test_task12": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (71)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHON] <lightswitch> (261)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHON] <lightswitch> (427)"
+        ],
+        "attempts": 5
+    },
+    "test_task13": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (71)",
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHON] <lightswitch> (173)"
+        ],
+        "attempts": 3
+    },
+    "test_task14": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (71)",
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHON] <lightswitch> (173)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHON] <lightswitch> (427)"
+        ],
+        "attempts": 5
+    },
+    "test_task15": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (71)",
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHON] <lightswitch> (173)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHON] <lightswitch> (261)"
+        ],
+        "attempts": 5
+    },
+    "test_task16": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (173)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHON] <lightswitch> (261)",
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHON] <lightswitch> (71)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHON] <lightswitch> (427)"
+        ],
+        "attempts": 7
+    },
+    "test_task17": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task18": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task19": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <tv> (264)"
+        ],
+        "attempts": 1
+    },
+    "test_task20": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <tv> (264)",
+            "[SWITCHON] <tv> (264)",
+            "[WALK] <tv> (426)"
+        ],
+        "attempts": 3
+    },
+    "test_task21": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (427)",
+            "[WALK] <bathroom> (11)",
+            "[SWITCHOFF] <lightswitch> (71)",
+            "[WALK] <bedroom> (73)",
+            "[SWITCHOFF] <lightswitch> (173)",
+            "[WALK] <kitchen> (205)",
+            "[SWITCHOFF] <lightswitch> (261)"
+        ],
+        "attempts": 7
+    },
+    "test_task22": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHOFF] <lightswitch> (71)",
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHOFF] <lightswitch> (173)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHOFF] <lightswitch> (261)"
+        ],
+        "attempts": 6
+    },
+    "test_task23": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (427)",
+            "[WALK] <bathroom> (11)",
+            "[SWITCHOFF] <lightswitch> (71)",
+            "[WALK] <bedroom> (73)",
+            "[SWITCHOFF] <lightswitch> (173)"
+        ],
+        "attempts": 5
+    },
+    "test_task24": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHOFF] <lightswitch> (71)",
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHOFF] <lightswitch> (173)"
+        ],
+        "attempts": 4
+    },
+    "test_task25": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (71)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHOFF] <lightswitch> (261)",
+            "[WALK] <lightswitch> (173)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHOFF] <lightswitch> (427)"
+        ],
+        "attempts": 6
+    },
+    "test_task26": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHOFF] <lightswitch> (261)",
+            "[WALK] <lightswitch> (173)",
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHOFF] <lightswitch> (71)"
+        ],
+        "attempts": 5
+    },
+    "test_task27": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (261)",
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHOFF] <lightswitch> (71)",
+            "[WALK] <lightswitch> (173)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHOFF] <lightswitch> (427)"
+        ],
+        "attempts": 6
+    },
+    "test_task28": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (71)",
+            "[SWITCHOFF] <lightswitch> (71)"
+        ],
+        "attempts": 2
+    },
+    "test_task29": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (427)",
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHOFF] <lightswitch> (173)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHOFF] <lightswitch> (261)"
+        ],
+        "attempts": 5
+    },
+    "test_task30": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (173)",
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHOFF] <lightswitch> (261)"
+        ],
+        "attempts": 3
+    },
+    "test_task31": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (173)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHOFF] <lightswitch> (427)"
+        ],
+        "attempts": 3
+    },
+    "test_task32": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (173)",
+            "[SWITCHOFF] <lightswitch> (173)"
+        ],
+        "attempts": 2
+    },
+    "test_task33": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (261)",
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHOFF] <lightswitch> (427)"
+        ],
+        "attempts": 3
+    },
+    "test_task34": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (261)",
+            "[SWITCHOFF] <lightswitch> (261)"
+        ],
+        "attempts": 2
+    },
+    "test_task35": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (427)",
+            "[SWITCHOFF] <lightswitch> (427)"
+        ],
+        "attempts": 2
+    },
+    "test_task36": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task37": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <bedroom> (73)"
+        ],
+        "attempts": 1
+    },
+    "test_task38": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task39": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task40": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task41": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <computer> (174)",
+            "[WALK] <computer> (433)",
+            "[SWITCHOFF] <computer> (433)"
+        ],
+        "attempts": 3
+    },
+    "test_task42": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <livingroom> (335)",
+            "[WALK] <bedroom> (73)",
+            "[SWITCHOFF] <computer> (174)"
+        ],
+        "attempts": 3
+    },
+    "test_task43": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <computer> (433)"
+        ],
+        "attempts": 1
+    },
+    "test_task44": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task45": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <tv> (426)",
+            "[WALK] <kitchen> (205)",
+            "[SWITCHOFF] <tv> (264)"
+        ],
+        "attempts": 3
+    },
+    "test_task46": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (205)",
+            "[SWITCHOFF] <tv> (264)"
+        ],
+        "attempts": 2
+    },
+    "test_task47": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <tv> (426)",
+            "[SWITCHOFF] <tv> (426)"
+        ],
+        "attempts": 2
+    },
+    "test_task48": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task49": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task50": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHON] <lightswitch> (302)"
+        ],
+        "attempts": 2
+    },
+    "test_task51": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)"
+        ],
+        "attempts": 2
+    },
+    "test_task52": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (302)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)"
+        ],
+        "attempts": 3
+    },
+    "test_task53": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (97)"
+        ],
+        "attempts": 1
+    },
+    "test_task54": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHON] <lightswitch> (97)",
+            "[WALK] <lightswitch> (157)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHON] <lightswitch> (302)"
+        ],
+        "attempts": 5
+    },
+    "test_task55": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)",
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHON] <lightswitch> (97)"
+        ],
+        "attempts": 4
+    },
+    "test_task56": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (97)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHON] <lightswitch> (302)"
+        ],
+        "attempts": 5
+    },
+    "test_task57": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHON] <lightswitch> (48)"
+        ],
+        "attempts": 2
+    },
+    "test_task58": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHON] <lightswitch> (48)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHON] <lightswitch> (302)"
+        ],
+        "attempts": 4
+    },
+    "test_task59": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (48)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)"
+        ],
+        "attempts": 3
+    },
+    "test_task60": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (48)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHON] <lightswitch> (302)"
+        ],
+        "attempts": 5
+    },
+    "test_task61": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHON] <lightswitch> (97)"
+        ],
+        "attempts": 2
+    },
+    "test_task62": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHON] <lightswitch> (48)",
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHON] <lightswitch> (97)",
+            "[WALK] <lightswitch> (157)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHON] <lightswitch> (302)"
+        ],
+        "attempts": 7
+    },
+    "test_task63": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHON] <lightswitch> (48)",
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHON] <lightswitch> (97)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)"
+        ],
+        "attempts": 6
+    },
+    "test_task64": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (97)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHON] <lightswitch> (157)",
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHON] <lightswitch> (48)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHON] <lightswitch> (302)"
+        ],
+        "attempts": 7
+    },
+    "test_task65": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (302)",
+            "[WALK] <bathroom> (11)",
+            "[SWITCHOFF] <lightswitch> (48)",
+            "[WALK] <bedroom> (50)",
+            "[SWITCHOFF] <lightswitch> (97)",
+            "[WALK] <kitchen> (126)",
+            "[SWITCHOFF] <lightswitch> (157)",
+            "[WALK] <livingroom> (261)"
+        ],
+        "attempts": 8
+    },
+    "test_task66": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bathroom> (11)",
+            "[SWITCHOFF] <lightswitch> (48)",
+            "[WALK] <bedroom> (50)",
+            "[SWITCHOFF] <lightswitch> (97)",
+            "[WALK] <kitchen> (126)",
+            "[SWITCHOFF] <lightswitch> (157)"
+        ],
+        "attempts": 6
+    },
+    "test_task67": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (97)",
+            "[WALK] <lightswitch> (157)",
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHOFF] <lightswitch> (48)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHOFF] <lightswitch> (302)"
+        ],
+        "attempts": 6
+    },
+    "test_task68": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (97)",
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHOFF] <lightswitch> (48)"
+        ],
+        "attempts": 3
+    },
+    "test_task69": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHOFF] <lightswitch> (48)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHOFF] <lightswitch> (157)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHOFF] <lightswitch> (302)"
+        ],
+        "attempts": 6
+    },
+    "test_task70": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHOFF] <lightswitch> (157)",
+            "[WALK] <lightswitch> (97)",
+            "[WALK] <lightswitch> (48)",
+            "[SWITCHOFF] <lightswitch> (48)"
+        ],
+        "attempts": 5
+    },
+    "test_task71": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (48)",
+            "[WALK] <lightswitch> (97)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHOFF] <lightswitch> (302)"
+        ],
+        "attempts": 4
+    },
+    "test_task72": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (48)"
+        ],
+        "attempts": 1
+    },
+    "test_task73": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (157)",
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHOFF] <lightswitch> (97)",
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHOFF] <lightswitch> (302)"
+        ],
+        "attempts": 5
+    },
+    "test_task74": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHOFF] <lightswitch> (97)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHOFF] <lightswitch> (157)",
+            "[WALK] <lightswitch> (48)"
+        ],
+        "attempts": 5
+    },
+    "test_task75": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHOFF] <lightswitch> (302)",
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHOFF] <lightswitch> (97)"
+        ],
+        "attempts": 4
+    },
+    "test_task76": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (97)",
+            "[SWITCHOFF] <lightswitch> (97)"
+        ],
+        "attempts": 2
+    },
+    "test_task77": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (302)",
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHOFF] <lightswitch> (157)"
+        ],
+        "attempts": 3
+    },
+    "test_task78": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (157)",
+            "[SWITCHOFF] <lightswitch> (157)",
+            "[WALK] <lightswitch> (97)"
+        ],
+        "attempts": 3
+    },
+    "test_task79": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (302)",
+            "[SWITCHOFF] <lightswitch> (302)"
+        ],
+        "attempts": 2
+    },
+    "test_task80": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task81": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bedroom> (50)",
+            "[SWITCHOFF] <computer> (94)",
+            "[WALK] <livingroom> (261)",
+            "[SWITCHOFF] <computer> (295)"
+        ],
+        "attempts": 4
+    },
+    "test_task82": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <computer> (94)",
+            "[SWITCHOFF] <computer> (94)"
+        ],
+        "attempts": 2
+    },
+    "test_task83": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <computer> (295)",
+            "[SWITCHOFF] <computer> (295)"
+        ],
+        "attempts": 2
+    },
+    "test_task84": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task85": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task86": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bedroom> (50)"
+        ],
+        "attempts": 1
+    },
+    "test_task87": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task88": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task89": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task90": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (402)"
+        ],
+        "attempts": 1
+    },
+    "test_task91": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 2
+    },
+    "test_task92": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 2
+    },
+    "test_task93": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 2
+    },
+    "test_task94": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 2
+    },
+    "test_task95": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (344)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 3
+    },
+    "test_task96": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHON] <lightswitch> (402)"
+        ],
+        "attempts": 4
+    },
+    "test_task97": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)"
+        ],
+        "attempts": 2
+    },
+    "test_task98": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHON] <lightswitch> (402)"
+        ],
+        "attempts": 3
+    },
+    "test_task99": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 3
+    },
+    "test_task100": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task101": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 4
+    },
+    "test_task102": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 4
+    },
+    "test_task103": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 6
+    },
+    "test_task104": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[SWITCHON] <lightswitch> (344)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 5
+    },
+    "test_task105": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task106": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[SWITCHON] <lightswitch> (58)"
+        ],
+        "attempts": 1
+    },
+    "test_task107": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 2
+    },
+    "test_task108": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (402)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task109": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 3
+    },
+    "test_task110": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHON] <lightswitch> (402)"
+        ],
+        "attempts": 5
+    },
+    "test_task111": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task112": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (402)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 7
+    },
+    "test_task113": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[SWITCHON] <lightswitch> (239)"
+        ],
+        "attempts": 1
+    },
+    "test_task114": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHON] <lightswitch> (402)"
+        ],
+        "attempts": 5
+    },
+    "test_task115": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task116": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHON] <lightswitch> (402)",
+            "[WALK] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 9
+    },
+    "test_task117": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 5
+    },
+    "test_task118": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (278)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHON] <lightswitch> (402)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)"
+        ],
+        "attempts": 7
+    },
+    "test_task119": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (344)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)"
+        ],
+        "attempts": 7
+    },
+    "test_task120": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (402)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHON] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHON] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHON] <lightswitch> (239)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHON] <lightswitch> (344)"
+        ],
+        "attempts": 9
+    },
+    "test_task121": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 9
+    },
+    "test_task122": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)"
+        ],
+        "attempts": 7
+    },
+    "test_task123": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 7
+    },
+    "test_task124": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (344)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)"
+        ],
+        "attempts": 7
+    },
+    "test_task125": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 7
+    },
+    "test_task126": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task127": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)"
+        ],
+        "attempts": 6
+    },
+    "test_task128": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)"
+        ],
+        "attempts": 4
+    },
+    "test_task129": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (11)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <livingroom> (183)",
+            "[WALK] <bedroom> (241)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <bathroom> (285)",
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <bedroom> (346)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 9
+    },
+    "test_task130": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)"
+        ],
+        "attempts": 5
+    },
+    "test_task131": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 7
+    },
+    "test_task132": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)"
+        ],
+        "attempts": 4
+    },
+    "test_task133": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 6
+    },
+    "test_task134": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)",
+            "[WALK] <lightswitch> (239)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task135": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (402)",
+            "[WALK] <bedroom> (241)",
+            "[WALK] <bathroom> (285)",
+            "[WALK] <kitchen> (11)",
+            "[SWITCHOFF] <lightswitch> (58)"
+        ],
+        "attempts": 5
+    },
+    "test_task136": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[SWITCHOFF] <lightswitch> (58)"
+        ],
+        "attempts": 3
+    },
+    "test_task137": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (402)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 7
+    },
+    "test_task138": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task139": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 6
+    },
+    "test_task140": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)"
+        ],
+        "attempts": 4
+    },
+    "test_task141": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 5
+    },
+    "test_task142": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 5
+    },
+    "test_task143": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)",
+            "[WALK] <lightswitch> (58)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 5
+    },
+    "test_task144": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (239)",
+            "[SWITCHOFF] <lightswitch> (239)"
+        ],
+        "attempts": 2
+    },
+    "test_task145": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 6
+    },
+    "test_task146": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (344)",
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)"
+        ],
+        "attempts": 3
+    },
+    "test_task147": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bedroom> (241)",
+            "[SWITCHOFF] <lightswitch> (278)",
+            "[WALK] <bedroom> (346)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 4
+    },
+    "test_task148": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (278)",
+            "[SWITCHOFF] <lightswitch> (278)"
+        ],
+        "attempts": 2
+    },
+    "test_task149": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (402)",
+            "[WALK] <bathroom> (285)",
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 4
+    },
+    "test_task150": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (344)",
+            "[SWITCHOFF] <lightswitch> (344)"
+        ],
+        "attempts": 2
+    },
+    "test_task151": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (402)",
+            "[SWITCHOFF] <lightswitch> (402)"
+        ],
+        "attempts": 2
+    },
+    "test_task152": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task153": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <bedroom> (346)",
+            "[WALK] <tablelamp> (376)",
+            "[WALK] <tablelamp> (376)",
+            "[WALK] <tablelamp> (377)",
+            "[SWITCHOFF] <tablelamp> (377)",
+            "[WALK] <tablelamp> (256)",
+            "[SWITCHOFF] <tablelamp> (256)",
+            "[WALK] <tablelamp> (376)",
+            "[WALK] <tablelamp> (377)",
+            "[WALK] <nightstand> (391)"
+        ],
+        "attempts": 10
+    },
+    "test_task154": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <bedroom> (241)"
+        ],
+        "attempts": 1
+    },
+    "test_task155": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <bedroom> (346)"
+        ],
+        "attempts": 1
+    },
+    "test_task156": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task157": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bedroom> (346)",
+            "[SWITCHOFF] <tablelamp> (376)",
+            "[SWITCHOFF] <tablelamp> (377)"
+        ],
+        "attempts": 3
+    },
+    "test_task158": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <tablelamp> (376)"
+        ],
+        "attempts": 1
+    },
+    "test_task159": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bedroom> (346)",
+            "[SWITCHOFF] <tablelamp> (377)"
+        ],
+        "attempts": 2
+    },
+    "test_task160": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task161": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task162": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task163": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHON] <lightswitch> (218)"
+        ],
+        "attempts": 2
+    },
+    "test_task164": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[SWITCHON] <lightswitch> (218)"
+        ],
+        "attempts": 1
+    },
+    "test_task165": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (209)"
+        ],
+        "attempts": 1
+    },
+    "test_task166": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHON] <lightswitch> (209)",
+            "[WALK] <lightswitch> (169)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHON] <lightswitch> (300)"
+        ],
+        "attempts": 5
+    },
+    "test_task167": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (209)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHON] <lightswitch> (218)"
+        ],
+        "attempts": 3
+    },
+    "test_task168": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (218)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHON] <lightswitch> (300)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHON] <lightswitch> (209)"
+        ],
+        "attempts": 5
+    },
+    "test_task169": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (11)",
+            "[SWITCHON] <lightswitch> (169)"
+        ],
+        "attempts": 2
+    },
+    "test_task170": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHON] <lightswitch> (169)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHON] <lightswitch> (300)"
+        ],
+        "attempts": 4
+    },
+    "test_task171": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHON] <lightswitch> (218)"
+        ],
+        "attempts": 2
+    },
+    "test_task172": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHON] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHON] <lightswitch> (218)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHON] <lightswitch> (300)"
+        ],
+        "attempts": 7
+    },
+    "test_task173": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHON] <lightswitch> (209)"
+        ],
+        "attempts": 3
+    },
+    "test_task174": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (300)",
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHON] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHON] <lightswitch> (209)"
+        ],
+        "attempts": 5
+    },
+    "test_task175": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (209)",
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHON] <lightswitch> (169)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHON] <lightswitch> (218)"
+        ],
+        "attempts": 5
+    },
+    "test_task176": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHON] <lightswitch> (209)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHON] <lightswitch> (218)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHON] <lightswitch> (300)"
+        ],
+        "attempts": 7
+    },
+    "test_task177": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (300)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHOFF] <lightswitch> (218)",
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHOFF] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHOFF] <lightswitch> (209)"
+        ],
+        "attempts": 7
+    },
+    "test_task178": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHOFF] <lightswitch> (209)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHOFF] <lightswitch> (218)"
+        ],
+        "attempts": 5
+    },
+    "test_task179": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (300)",
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHOFF] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHOFF] <lightswitch> (209)"
+        ],
+        "attempts": 5
+    },
+    "test_task180": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHOFF] <lightswitch> (209)"
+        ],
+        "attempts": 3
+    },
+    "test_task181": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHOFF] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHOFF] <lightswitch> (218)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHOFF] <lightswitch> (300)"
+        ],
+        "attempts": 7
+    },
+    "test_task182": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (218)",
+            "[WALK] <lightswitch> (169)",
+            "[SWITCHOFF] <lightswitch> (169)"
+        ],
+        "attempts": 3
+    },
+    "test_task183": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (169)",
+            "[WALK] <lightswitch> (209)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHOFF] <lightswitch> (300)"
+        ],
+        "attempts": 4
+    },
+    "test_task184": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (11)",
+            "[SWITCHOFF] <lightswitch> (169)"
+        ],
+        "attempts": 2
+    },
+    "test_task185": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (209)",
+            "[WALK] <lightswitch> (169)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHOFF] <lightswitch> (218)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHOFF] <lightswitch> (300)"
+        ],
+        "attempts": 6
+    },
+    "test_task186": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (209)",
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHOFF] <lightswitch> (218)"
+        ],
+        "attempts": 3
+    },
+    "test_task187": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHOFF] <lightswitch> (209)",
+            "[WALK] <lightswitch> (169)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHOFF] <lightswitch> (300)"
+        ],
+        "attempts": 5
+    },
+    "test_task188": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (209)",
+            "[SWITCHOFF] <lightswitch> (209)"
+        ],
+        "attempts": 2
+    },
+    "test_task189": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (218)",
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHOFF] <lightswitch> (300)"
+        ],
+        "attempts": 3
+    },
+    "test_task190": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (218)",
+            "[SWITCHOFF] <lightswitch> (218)"
+        ],
+        "attempts": 2
+    },
+    "test_task191": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (300)",
+            "[SWITCHOFF] <lightswitch> (300)"
+        ],
+        "attempts": 2
+    },
+    "test_task192": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task193": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task194": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (366)"
+        ],
+        "attempts": 1
+    },
+    "test_task195": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHON] <lightswitch> (249)"
+        ],
+        "attempts": 2
+    },
+    "test_task196": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHON] <lightswitch> (249)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHON] <lightswitch> (366)"
+        ],
+        "attempts": 4
+    },
+    "test_task197": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHON] <lightswitch> (201)"
+        ],
+        "attempts": 2
+    },
+    "test_task198": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (103)",
+            "[SWITCHON] <lightswitch> (103)",
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHON] <lightswitch> (201)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHON] <lightswitch> (366)"
+        ],
+        "attempts": 6
+    },
+    "test_task199": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (249)",
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHON] <lightswitch> (201)"
+        ],
+        "attempts": 3
+    },
+    "test_task200": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (366)",
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHON] <lightswitch> (201)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHON] <lightswitch> (249)"
+        ],
+        "attempts": 5
+    },
+    "test_task201": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHON] <lightswitch> (103)"
+        ],
+        "attempts": 2
+    },
+    "test_task202": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[SWITCHON] <lightswitch> (366)"
+        ],
+        "attempts": 1
+    },
+    "test_task203": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHON] <lightswitch> (103)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHON] <lightswitch> (249)"
+        ],
+        "attempts": 4
+    },
+    "test_task204": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (249)",
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHON] <lightswitch> (103)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHON] <lightswitch> (366)"
+        ],
+        "attempts": 5
+    },
+    "test_task205": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHON] <lightswitch> (103)",
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHON] <lightswitch> (201)"
+        ],
+        "attempts": 4
+    },
+    "test_task206": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (201)",
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHON] <lightswitch> (103)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHON] <lightswitch> (366)"
+        ],
+        "attempts": 5
+    },
+    "test_task207": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[SWITCHON] <lightswitch> (201)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHON] <lightswitch> (249)"
+        ],
+        "attempts": 3
+    },
+    "test_task208": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (249)",
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHON] <lightswitch> (201)",
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHON] <lightswitch> (103)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHON] <lightswitch> (366)"
+        ],
+        "attempts": 7
+    },
+    "test_task209": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task210": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <tv> (200)",
+            "[SWITCHON] <tv> (200)"
+        ],
+        "attempts": 2
+    },
+    "test_task211": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <livingroom> (11)",
+            "[SWITCHON] <tv> (108)"
+        ],
+        "attempts": 2
+    },
+    "test_task212": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <livingroom> (11)",
+            "[SWITCHON] <tv> (108)",
+            "[WALK] <kitchen> (111)",
+            "[SWITCHON] <tv> (200)"
+        ],
+        "attempts": 4
+    },
+    "test_task213": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <livingroom> (11)",
+            "[SWITCHOFF] <tablelamp> (78)",
+            "[WALK] <bedroom> (214)",
+            "[SWITCHOFF] <tablelamp> (229)"
+        ],
+        "attempts": 4
+    },
+    "test_task214": {
+        "score": 0.0,
+        "result": "Execution Failure",
+        "action script": [
+            "[WALK] <nightstand> (273)"
+        ],
+        "attempts": 1
+    },
+    "test_task215": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <livingroom> (11)",
+            "[WALK] <bedroom> (214)",
+            "[SWITCHOFF] <tablelamp> (229)"
+        ],
+        "attempts": 3
+    },
+    "test_task216": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task217": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (249)",
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHOFF] <lightswitch> (201)",
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHOFF] <lightswitch> (103)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHOFF] <lightswitch> (366)"
+        ],
+        "attempts": 7
+    },
+    "test_task218": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHOFF] <lightswitch> (201)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHOFF] <lightswitch> (249)",
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHOFF] <lightswitch> (103)"
+        ],
+        "attempts": 6
+    },
+    "test_task219": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (201)",
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHOFF] <lightswitch> (103)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHOFF] <lightswitch> (366)"
+        ],
+        "attempts": 5
+    },
+    "test_task220": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHOFF] <lightswitch> (103)",
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHOFF] <lightswitch> (201)"
+        ],
+        "attempts": 4
+    },
+    "test_task221": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (366)",
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHOFF] <lightswitch> (103)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHOFF] <lightswitch> (249)"
+        ],
+        "attempts": 5
+    },
+    "test_task222": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (103)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHOFF] <lightswitch> (249)"
+        ],
+        "attempts": 3
+    },
+    "test_task223": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (103)",
+            "[SWITCHOFF] <lightswitch> (103)",
+            "[WALK] <lightswitch> (201)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHOFF] <lightswitch> (366)"
+        ],
+        "attempts": 5
+    },
+    "test_task224": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (103)"
+        ],
+        "attempts": 1
+    },
+    "test_task225": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHOFF] <lightswitch> (201)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHOFF] <lightswitch> (249)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHOFF] <lightswitch> (366)"
+        ],
+        "attempts": 6
+    },
+    "test_task226": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHOFF] <lightswitch> (201)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHOFF] <lightswitch> (249)"
+        ],
+        "attempts": 4
+    },
+    "test_task227": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHOFF] <lightswitch> (201)",
+            "[WALK] <lightswitch> (249)",
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHOFF] <lightswitch> (366)"
+        ],
+        "attempts": 5
+    },
+    "test_task228": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (201)",
+            "[SWITCHOFF] <lightswitch> (201)"
+        ],
+        "attempts": 2
+    },
+    "test_task229": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (366)",
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHOFF] <lightswitch> (249)"
+        ],
+        "attempts": 3
+    },
+    "test_task230": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (249)",
+            "[SWITCHOFF] <lightswitch> (249)"
+        ],
+        "attempts": 2
+    },
+    "test_task231": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (366)",
+            "[SWITCHOFF] <lightswitch> (366)"
+        ],
+        "attempts": 2
+    },
+    "test_task232": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task233": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <livingroom> (11)",
+            "[SWITCHOFF] <tv> (108)",
+            "[WALK] <kitchen> (111)",
+            "[SWITCHOFF] <tv> (200)"
+        ],
+        "attempts": 4
+    },
+    "test_task234": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <livingroom> (11)",
+            "[SWITCHOFF] <tv> (108)"
+        ],
+        "attempts": 2
+    },
+    "test_task235": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <tv> (200)",
+            "[SWITCHOFF] <tv> (200)"
+        ],
+        "attempts": 2
+    },
+    "test_task236": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task237": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task238": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (315)"
+        ],
+        "attempts": 1
+    },
+    "test_task239": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHON] <lightswitch> (205)"
+        ],
+        "attempts": 2
+    },
+    "test_task240": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (205)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHON] <lightswitch> (315)"
+        ],
+        "attempts": 3
+    },
+    "test_task241": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHON] <lightswitch> (110)"
+        ],
+        "attempts": 2
+    },
+    "test_task242": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (315)",
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHON] <lightswitch> (110)"
+        ],
+        "attempts": 3
+    },
+    "test_task243": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHON] <lightswitch> (110)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHON] <lightswitch> (205)"
+        ],
+        "attempts": 4
+    },
+    "test_task244": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (205)",
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHON] <lightswitch> (110)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHON] <lightswitch> (315)"
+        ],
+        "attempts": 5
+    },
+    "test_task245": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (67)"
+        ],
+        "attempts": 1
+    },
+    "test_task246": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (315)",
+            "[WALK] <bathroom> (11)",
+            "[SWITCHON] <lightswitch> (67)"
+        ],
+        "attempts": 3
+    },
+    "test_task247": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (67)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHON] <lightswitch> (205)"
+        ],
+        "attempts": 3
+    },
+    "test_task248": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (315)",
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHON] <lightswitch> (67)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHON] <lightswitch> (205)"
+        ],
+        "attempts": 5
+    },
+    "test_task249": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (110)",
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHON] <lightswitch> (67)"
+        ],
+        "attempts": 3
+    },
+    "test_task250": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (110)",
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHON] <lightswitch> (67)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHON] <lightswitch> (315)"
+        ],
+        "attempts": 5
+    },
+    "test_task251": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (67)",
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHON] <lightswitch> (110)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHON] <lightswitch> (205)"
+        ],
+        "attempts": 5
+    },
+    "test_task252": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (110)",
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHON] <lightswitch> (67)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHON] <lightswitch> (205)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHON] <lightswitch> (315)"
+        ],
+        "attempts": 7
+    },
+    "test_task253": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task254": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <tv> (314)"
+        ],
+        "attempts": 1
+    },
+    "test_task255": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <tv> (207)",
+            "[SWITCHON] <tv> (207)"
+        ],
+        "attempts": 2
+    },
+    "test_task256": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[SWITCHON] <tv> (207)",
+            "[WALK] <tv> (314)"
+        ],
+        "attempts": 2
+    },
+    "test_task257": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (67)",
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHOFF] <lightswitch> (110)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHOFF] <lightswitch> (205)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHOFF] <lightswitch> (315)"
+        ],
+        "attempts": 7
+    },
+    "test_task258": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (67)",
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHOFF] <lightswitch> (110)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHOFF] <lightswitch> (205)"
+        ],
+        "attempts": 5
+    },
+    "test_task259": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHOFF] <lightswitch> (67)",
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHOFF] <lightswitch> (110)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHOFF] <lightswitch> (315)"
+        ],
+        "attempts": 6
+    },
+    "test_task260": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (110)",
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHOFF] <lightswitch> (67)"
+        ],
+        "attempts": 3
+    },
+    "test_task261": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (205)",
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHOFF] <lightswitch> (67)",
+            "[WALK] <lightswitch> (110)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHOFF] <lightswitch> (315)"
+        ],
+        "attempts": 6
+    },
+    "test_task262": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (205)",
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHOFF] <lightswitch> (67)"
+        ],
+        "attempts": 3
+    },
+    "test_task263": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (67)",
+            "[SWITCHOFF] <lightswitch> (67)",
+            "[WALK] <lightswitch> (110)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHOFF] <lightswitch> (315)"
+        ],
+        "attempts": 5
+    },
+    "test_task264": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <bathroom> (11)",
+            "[SWITCHOFF] <lightswitch> (67)"
+        ],
+        "attempts": 2
+    },
+    "test_task265": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (315)",
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHOFF] <lightswitch> (110)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHOFF] <lightswitch> (205)"
+        ],
+        "attempts": 5
+    },
+    "test_task266": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHOFF] <lightswitch> (110)",
+            "[WALK] <lightswitch> (67)",
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHOFF] <lightswitch> (205)"
+        ],
+        "attempts": 5
+    },
+    "test_task267": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHOFF] <lightswitch> (110)",
+            "[WALK] <lightswitch> (67)",
+            "[WALK] <lightswitch> (315)",
+            "[SWITCHOFF] <lightswitch> (315)"
+        ],
+        "attempts": 5
+    },
+    "test_task268": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (110)",
+            "[SWITCHOFF] <lightswitch> (110)"
+        ],
+        "attempts": 2
+    },
+    "test_task269": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHOFF] <lightswitch> (205)",
+            "[WALK] <livingroom> (247)",
+            "[SWITCHOFF] <lightswitch> (315)"
+        ],
+        "attempts": 4
+    },
+    "test_task270": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (205)",
+            "[SWITCHOFF] <lightswitch> (205)"
+        ],
+        "attempts": 2
+    },
+    "test_task271": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (315)"
+        ],
+        "attempts": 1
+    },
+    "test_task272": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task273": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <tv> (314)",
+            "[WALK] <tv> (207)",
+            "[SWITCHOFF] <tv> (207)"
+        ],
+        "attempts": 3
+    },
+    "test_task274": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <kitchen> (162)",
+            "[SWITCHOFF] <tv> (207)"
+        ],
+        "attempts": 2
+    },
+    "test_task275": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <tv> (314)",
+            "[SWITCHOFF] <tv> (314)"
+        ],
+        "attempts": 2
+    },
+    "test_task276": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task277": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task278": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHON] <lightswitch> (332)"
+        ],
+        "attempts": 2
+    },
+    "test_task279": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHON] <lightswitch> (277)"
+        ],
+        "attempts": 2
+    },
+    "test_task280": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (277)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHON] <lightswitch> (332)"
+        ],
+        "attempts": 3
+    },
+    "test_task281": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHON] <lightswitch> (85)"
+        ],
+        "attempts": 2
+    },
+    "test_task282": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHON] <lightswitch> (85)",
+            "[WALK] <lightswitch> (277)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHON] <lightswitch> (332)"
+        ],
+        "attempts": 5
+    },
+    "test_task283": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (85)",
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHON] <lightswitch> (277)"
+        ],
+        "attempts": 3
+    },
+    "test_task284": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (85)",
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHON] <lightswitch> (277)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHON] <lightswitch> (332)"
+        ],
+        "attempts": 5
+    },
+    "test_task285": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task286": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[SWITCHON] <lightswitch> (332)"
+        ],
+        "attempts": 1
+    },
+    "test_task287": {
+        "score": 0.0,
+        "result": "Erroneous Terminate",
+        "action script": [
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHON] <lightswitch> (277)"
+        ],
+        "attempts": 2
+    },
+    "test_task288": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (332)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHON] <lightswitch> (54)",
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHON] <lightswitch> (277)"
+        ],
+        "attempts": 5
+    },
+    "test_task289": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (85)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHON] <lightswitch> (54)"
+        ],
+        "attempts": 3
+    },
+    "test_task290": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHON] <lightswitch> (54)",
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHON] <lightswitch> (85)",
+            "[WALK] <lightswitch> (277)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHON] <lightswitch> (332)"
+        ],
+        "attempts": 7
+    },
+    "test_task291": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (277)",
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHON] <lightswitch> (85)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHON] <lightswitch> (54)"
+        ],
+        "attempts": 5
+    },
+    "test_task292": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHON] <lightswitch> (85)",
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHON] <lightswitch> (277)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHON] <lightswitch> (54)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHON] <lightswitch> (332)"
+        ],
+        "attempts": 7
+    },
+    "test_task293": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (277)",
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHOFF] <lightswitch> (85)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHOFF] <lightswitch> (332)"
+        ],
+        "attempts": 7
+    },
+    "test_task294": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)",
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHOFF] <lightswitch> (85)",
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHOFF] <lightswitch> (277)"
+        ],
+        "attempts": 6
+    },
+    "test_task295": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (85)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHOFF] <lightswitch> (332)"
+        ],
+        "attempts": 5
+    },
+    "test_task296": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (85)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)"
+        ],
+        "attempts": 3
+    },
+    "test_task297": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (277)",
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)",
+            "[WALK] <lightswitch> (85)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHOFF] <lightswitch> (332)"
+        ],
+        "attempts": 6
+    },
+    "test_task298": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)",
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHOFF] <lightswitch> (277)"
+        ],
+        "attempts": 4
+    },
+    "test_task299": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)",
+            "[WALK] <bedroom> (282)",
+            "[SWITCHOFF] <lightswitch> (332)"
+        ],
+        "attempts": 4
+    },
+    "test_task300": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (54)",
+            "[SWITCHOFF] <lightswitch> (54)"
+        ],
+        "attempts": 2
+    },
+    "test_task301": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (332)",
+            "[WALK] <livingroom> (197)",
+            "[SWITCHOFF] <lightswitch> (277)",
+            "[WALK] <kitchen> (56)",
+            "[SWITCHOFF] <lightswitch> (85)"
+        ],
+        "attempts": 5
+    },
+    "test_task302": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHOFF] <lightswitch> (85)",
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHOFF] <lightswitch> (277)"
+        ],
+        "attempts": 4
+    },
+    "test_task303": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (332)",
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHOFF] <lightswitch> (85)"
+        ],
+        "attempts": 3
+    },
+    "test_task304": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (85)",
+            "[SWITCHOFF] <lightswitch> (85)"
+        ],
+        "attempts": 2
+    },
+    "test_task305": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (277)",
+            "[SWITCHOFF] <lightswitch> (277)",
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHOFF] <lightswitch> (332)"
+        ],
+        "attempts": 4
+    },
+    "test_task306": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <lightswitch> (277)"
+        ],
+        "attempts": 1
+    },
+    "test_task307": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <lightswitch> (332)",
+            "[SWITCHOFF] <lightswitch> (332)"
+        ],
+        "attempts": 2
+    },
+    "test_task308": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    },
+    "test_task309": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <computer> (274)",
+            "[SWITCHOFF] <computer> (274)",
+            "[WALK] <computer> (324)",
+            "[SWITCHOFF] <computer> (324)"
+        ],
+        "attempts": 4
+    },
+    "test_task310": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[SWITCHOFF] <computer> (324)",
+            "[WALK] <computer> (274)",
+            "[SWITCHOFF] <computer> (274)"
+        ],
+        "attempts": 3
+    },
+    "test_task311": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [
+            "[WALK] <computer> (324)",
+            "[SWITCHOFF] <computer> (324)"
+        ],
+        "attempts": 2
+    },
+    "test_task312": {
+        "score": 1.0,
+        "result": "Success",
+        "action script": [],
+        "attempts": 0
+    }
+}
