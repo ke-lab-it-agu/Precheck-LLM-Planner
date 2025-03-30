@@ -13,8 +13,8 @@
 - VirtualHomeの動作確認後、このプロジェクトフォルダを、virtualhomeディレクトリの直下（simulationフォルダと同じ階層）に置く。
 
 ## ソースコード実行方法
-- single-prompt.ipynb または multi-prompt.ipynb が実行ファイルです。
-- single-prompt.ipynbはプロンプトを単一でLLMに提供する方法、multi-prompt.ipynbはプロンプトを分割してLLMに提供する方法で実装している。
+- single-prompt.ipynb または multi-prompts.ipynb が実行ファイルです。
+- single-prompt.ipynbはプロンプトを単一でLLMに提供する方法、multi-prompts.ipynbはプロンプトを分割してLLMに提供する方法で実装している。
 
 以下が実行方法の手順
 
@@ -27,6 +27,6 @@
 実験の結果は、json形式のファイルで保存され、cal_score.ipynb で結果のファイルを読み込んで最終的なスコアを算出する
 
 ### 補足
-- result以下は実験結果であり、タスクタイプ毎に結果ファイルを保存している。
-- ablation以下はアブレーションスタディの結果である。
+- result/ 以下は実験結果であり、タスクタイプ毎に結果ファイルを保存している。
+- ablation/ 以下はアブレーションスタディの結果である。
 - 各jsonファイル名に、プロンプティング手法と利用したモデルが記載されている。
